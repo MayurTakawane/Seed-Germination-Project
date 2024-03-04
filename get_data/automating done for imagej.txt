@@ -1,0 +1,11 @@
+automating done for imagej
+
+main file name should be seedTestImage
+
+This is file(image) when we click from our app
+
+WHat i have done here 
+
+Step 1 : Create a macro file with seedTestImage
+Step 2 : creating automateImageJ.py file 
+Step 3 : In This file I used suprocess to open imageJ software ("C:\\Users\\MAYUR\\Downloads\\ij154-win-java8\\ImageJ\\ImageJ.exe") and in imageJ software i kept the macro code for startup operation that means evertime we open imageJ the macro will run

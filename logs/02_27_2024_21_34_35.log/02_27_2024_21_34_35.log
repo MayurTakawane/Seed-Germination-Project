@@ -1,0 +1,5 @@
+[ 2024-02-27 21:34:35,457 ] 24 root - INFO - Dataset read as pandas Dataframe
+[ 2024-02-27 21:34:35,471 ] 27 root - INFO - raw csv stored successfully
+[ 2024-02-27 21:34:35,471 ] 30 root - INFO - Train test split
+[ 2024-02-27 21:34:35,488 ] 40 root - INFO - train csv and test csv stored successfully
+[ 2024-02-27 21:34:35,489 ] 42 root - INFO - Ingestion of Data is completed
