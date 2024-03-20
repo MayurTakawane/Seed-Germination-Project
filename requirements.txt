@@ -4,3 +4,5 @@ Flask
 scikit-learn
 seaborn
 opencv-python
+requests
+imutils

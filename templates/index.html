@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seed Germination App</title>
+    <link rel="stylesheet" href="/static/css/index.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Corn Seed Germination Prediction</h1>
+        <h2>How To Predict ?</h2>
+        <p>Predict - Proceed - Results</p>
+        <ul>
+            <li>Click on predict, Capture a picture of seeds</li>
+            <li>Proceed by confirming your pick</li>
+            <li>Wait for results</li>
+        </ul>
+    </div>
+    <div class="headerbackgroundblur"></div>
+    <video class = "background" src="/static/css/corn video.mp4" autoplay loop muted type="mp4"></video>
+    <div class="btnSideImages">
+        <img src="/static/css/corn diplay.png" alt="">
+    </div>
+    <form action="/openwebcam" method="POST">
+        <div class="btn">
+            <button class="mybtn" role="button" type="submit" value="Predict">Predict</button>
+        </div>
+    </form>
+</body>
+</html>

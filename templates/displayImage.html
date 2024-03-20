@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirm the image</title>
+  <link rel="stylesheet" href="/static/css/displayImage.css">
+</head>
+<body>
+  <div class="bg">
+    <img src="/static/css/corn 2.jpg" alt="">
+  </div>
+
+  <div class="imagebox">
+    <div class="image">
+      <img src="data:image/jpeg;base64,{{ captured_image|pil_to_base64 }}" alt="">
+    </div>
+  </div>
+
+  <form action="/RunningMacros" method="POST">
+    <div class="btn">
+      <button class="confirm" role="button" type="submit" value="Confirm">Confirm</button>
+    </div>
+
+  </form>
+  <form action="/openwebcam" method="POST">
+    <div class="btn">
+      <button class="retake" role="button" type="submit" value="retake">Retake</button>
+    </div>
+  </form>
+</body>
+</html>

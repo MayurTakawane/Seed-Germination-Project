@@ -1,33 +1,65 @@
 from src.pipeline.prediction_pipeline import predictPipeline,customData
 from src.logger import logging
 import numpy as np
-# 79.683	207.517	16.666	207.517	16.666	33.718	202.295	11.274	10.210	10.636
-# 90.905	156.462	17.018	156.462	17.018	35.471	151.242	11.274	10.636	11.274
-data=customData(
-    Area = float(90),
-    X = float(16),
-    Y = float(455),
-    XM = float(200),
-    YM = float(100),
-    Perimeter = float(30),
-    BX = float(100),
-    BY = float(100),
-    Width = float(20),
-    Height = float(20)
-)
-dataframe = data.convert_data_into_dataframe()
-print(dataframe)
+import pandas as pd
 
-pred = predictPipeline()
-results = pred.prediction(dataframe)
-if results == 'yes':
-    print('Result ===> The Seed will Grow')
-else:
-    print('Result ===> The Seed will not Grow')
+data = pd.read_csv('get_data/excelData/Results.csv')
+data = data.drop(columns=' ')
 
-print(results)
+area = []
+x = []
+y = []
+xm = []
+ym = []
+perim = []
+bx = []
+by = []
+width = []
+height = []
 
-## Project status all done now only create app with flask 
+i = 0
+while(len(data) > 0):
+    area.append(data['Area'][i])
+    x.append(data['X'][i])
+    y.append(data['Y'][i])
+    xm.append(data['XM'][i])
+    ym.append(data['YM'][i])
+    perim.append(data['Perim.'][i])
+    bx.append(data['BX'][i])
+    by.append(data['BY'][i])
+    width.append(data['Width'][i])
+    height.append(data['Height'][i])
+    data.drop([i],axis=0)
+    i = i + 1
+    if i == 100:
+        break
+
+i = 0
+while(i < 100):
+    data=customData(    
+        Area = float(np.round(area[i])),
+        X = float(np.round(x[i])),
+        Y = float(np.round(y[i])),
+        XM = float(np.round(xm[i])),
+        YM = float(np.round(ym[i])),
+        Perimeter = float(np.round(perim[i])),
+        BX = float(np.round(bx[i])),
+        BY = float(np.round(by[i])),
+        Width = float(np.round(width[i])),
+        Height = float(np.round(height[i]))
+    )
+    dataframe = data.convert_data_into_dataframe()
+    # print(dataframe)
+    pred = predictPipeline()
+    results = pred.prediction(dataframe)
+    if results == 'yes':
+        print(f'Result ===> The Seed {i} will Grow')
+    else:
+        print(f'Result ===> The Seed {i} will not Grow')
+    print(results)
+    i = i + 1
+
+## Project status all done just do UI and after that train model properly
     
 # Result after running above code 
 '''

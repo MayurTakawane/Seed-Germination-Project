@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;0,900;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.bg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+    opacity: 0.9;
+    filter: blur(3.5px);
+}
+
+.imagebox{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.image{
+    position: absolute;
+    top: 2em;
+}
+
+.image img{
+    height: 500px;
+    width: 700px;
+    border-radius: 50px;
+    filter: drop-shadow(100px 100px 100px rgb(102, 87, 16));
+}
+
+.btn{
+    position: absolute;
+    z-index: 3;
+}
+
+.confirm{
+    background: linear-gradient(to right,#cac219 ,#6a6f15);
+    background-color: #cac219;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 15px 20px;
+    border: 0px solid #000;
+    border-radius: 52px;
+    display: inline-block;
+    box-shadow: 7px 5px 14px 2px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 35em;
+    left: 48em;
+   }
+   .confirm:hover{
+    background: linear-gradient(to right,#c0b818 ,#656914);
+    background-color: #c0b818;
+   }
+   .confirm:active{
+    transform: scale(0.95);
+   }
+
+.retake{
+    background: linear-gradient(to right,#cac219 ,#6a6f15);
+    background-color: #cac219;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 15px 20px;
+    border: 0px solid #000;
+    border-radius: 52px;
+    display: inline-block;
+    box-shadow: 7px 5px 14px 2px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 35em;
+    left: 40em;
+   }
+   .retake:hover{
+    background: linear-gradient(to right,#c0b818 ,#656914);
+    background-color: #c0b818;
+   }
+   .retake:active{
+    transform: scale(0.95);
+   }
