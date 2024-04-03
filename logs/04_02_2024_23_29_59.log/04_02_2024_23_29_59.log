@@ -1,0 +1,44 @@
+[ 2024-04-02 23:30:00,475 ] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2024-04-02 23:30:00,475 ] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-04-02 23:30:07,090 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:30:07] "GET / HTTP/1.1" 200 -
+[ 2024-04-02 23:30:07,170 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:30:07] "[36mGET /static/css/corn%20diplay.png HTTP/1.1[0m" 304 -
+[ 2024-04-02 23:30:07,175 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:30:07] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+[ 2024-04-02 23:30:07,198 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:30:07] "[35m[1mGET /static/css/corn%20video.mp4 HTTP/1.1[0m" 206 -
+[ 2024-04-02 23:30:07,202 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:30:07] "[35m[1mGET /static/css/corn%20video.mp4 HTTP/1.1[0m" 206 -
+[ 2024-04-02 23:30:18,199 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:30:18] "POST /openwebcam HTTP/1.1" 200 -
+[ 2024-04-02 23:30:18,214 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:30:18] "[36mGET /static/css/displayImage.css HTTP/1.1[0m" 304 -
+[ 2024-04-02 23:30:18,215 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:30:18] "[36mGET /static/css/corn%202.jpg HTTP/1.1[0m" 304 -
+[ 2024-04-02 23:30:22,765 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:30:22] "POST /RunningMacros HTTP/1.1" 200 -
+[ 2024-04-02 23:30:22,776 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:30:22] "[36mGET /static/css/ViewResults.css HTTP/1.1[0m" 304 -
+[ 2024-04-02 23:30:22,777 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:30:22] "[36mGET /static/css/corn%201.jpg HTTP/1.1[0m" 304 -
+[ 2024-04-02 23:30:24,266 ] 828 app - ERROR - Exception on /showingResults [POST]
+Traceback (most recent call last):
+  File "C:\Users\MAYUR\anaconda3\envs\SeedGermination\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MAYUR\anaconda3\envs\SeedGermination\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MAYUR\anaconda3\envs\SeedGermination\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MAYUR\anaconda3\envs\SeedGermination\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Computer_science\BE_PROJECT\Seed_Project\app.py", line 116, in show_results
+    data = data.drop(columns=' ')
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MAYUR\anaconda3\envs\SeedGermination\Lib\site-packages\pandas\core\frame.py", line 5568, in drop
+    return super().drop(
+           ^^^^^^^^^^^^^
+  File "C:\Users\MAYUR\anaconda3\envs\SeedGermination\Lib\site-packages\pandas\core\generic.py", line 4782, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MAYUR\anaconda3\envs\SeedGermination\Lib\site-packages\pandas\core\generic.py", line 4824, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MAYUR\anaconda3\envs\SeedGermination\Lib\site-packages\pandas\core\indexes\base.py", line 7069, in drop
+    raise KeyError(f"{labels[mask].tolist()} not found in axis")
+KeyError: "[' '] not found in axis"
+[ 2024-04-02 23:30:24,275 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:30:24] "[35m[1mPOST /showingResults HTTP/1.1[0m" 500 -

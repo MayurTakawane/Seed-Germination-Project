@@ -1,0 +1,61 @@
+[ 2024-04-02 23:03:19,972 ] 25 root - INFO - Dataset read as pandas Dataframe
+[ 2024-04-02 23:03:19,980 ] 28 root - INFO - raw csv stored successfully
+[ 2024-04-02 23:03:19,980 ] 31 root - INFO - Train test split
+[ 2024-04-02 23:03:19,989 ] 41 root - INFO - train csv and test csv stored successfully
+[ 2024-04-02 23:03:19,989 ] 43 root - INFO - Ingestion of Data is completed
+[ 2024-04-02 23:03:19,990 ] 58 root - INFO - initiate_data_transformation
+[ 2024-04-02 23:03:20,008 ] 62 root - INFO - Read train and test data completed
+[ 2024-04-02 23:03:20,014 ] 63 root - INFO - Train Dataframe Head : 
+   Unnamed: 0   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height Result   Type
+0           5   80.4  106.5   17.2  106.5   17.2       37.0  101.7   11.9   10.2    10.4     no     no
+1         116  103.0   99.2   40.5   99.2   40.5       38.3   93.3   34.6   11.7    11.2    yes  small
+2          45   88.1  108.8  108.5  108.8  108.5       35.2  103.2  103.0   11.1    10.6     no     no
+3          16   78.2   82.5   41.8   82.5   41.8       38.9   77.6   36.6   10.0    10.4     no     no
+4         462   68.7  141.4  137.8  141.4  137.8       39.4  136.7  132.9    8.8    11.5    yes  large
+[ 2024-04-02 23:03:20,019 ] 64 root - INFO - Test Dataframe Head  : 
+   Unnamed: 0   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height Result      Type
+0         361   83.0   24.2   86.6   24.2   86.6       35.6   19.2   81.6   11.4    10.2    yes  moderate
+1          73   96.2  136.3  180.3  136.3  180.3       41.4  130.8  174.6   10.8    12.3    yes     small
+2         374   79.1  113.4   99.2  113.4   99.2       34.1  108.6   94.2   10.4    10.2    yes  moderate
+3         155   98.3  130.7  138.9  130.7  138.9       37.9  125.4  133.0   11.2    11.2     no        no
+4         104  101.0  125.0   16.9  125.0   16.9       37.8  119.5   11.2   11.5    11.2    yes  moderate
+[ 2024-04-02 23:03:20,020 ] 75 root - INFO - Obtaining preprocessing object
+[ 2024-04-02 23:03:20,020 ] 26 root - INFO - Initiating get_data_transformation_object
+[ 2024-04-02 23:03:20,020 ] 47 root - INFO - preprocessor object created successfully
+[ 2024-04-02 23:03:20,145 ] 34 root - INFO - Model Report : {'random_forest': 82.67, 'logistic_regression': 82.0, 'decision_tree': 75.33}
+[ 2024-04-02 23:03:20,146 ] 47 root - INFO - Best Model Found , Model Name : random_forest , R2 Score : 82.67
+[ 2024-04-02 23:03:20,148 ] 13 root - INFO - -------Data Ingestion started-------
+[ 2024-04-02 23:03:20,150 ] 25 root - INFO - Dataset read as pandas Dataframe
+[ 2024-04-02 23:03:20,155 ] 28 root - INFO - raw csv stored successfully
+[ 2024-04-02 23:03:20,155 ] 31 root - INFO - Train test split
+[ 2024-04-02 23:03:20,162 ] 41 root - INFO - train csv and test csv stored successfully
+[ 2024-04-02 23:03:20,162 ] 43 root - INFO - Ingestion of Data is completed
+[ 2024-04-02 23:03:20,162 ] 16 root - INFO - -------Data Ingestion successfull-------
+[ 2024-04-02 23:03:20,162 ] 17 root - INFO - =======================================================================
+[ 2024-04-02 23:03:20,162 ] 20 root - INFO - -------Data Transformation started-------
+[ 2024-04-02 23:03:20,162 ] 58 root - INFO - initiate_data_transformation
+[ 2024-04-02 23:03:20,180 ] 62 root - INFO - Read train and test data completed
+[ 2024-04-02 23:03:20,184 ] 63 root - INFO - Train Dataframe Head : 
+   Unnamed: 0   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height Result   Type
+0           5   80.4  106.5   17.2  106.5   17.2       37.0  101.7   11.9   10.2    10.4     no     no
+1         116  103.0   99.2   40.5   99.2   40.5       38.3   93.3   34.6   11.7    11.2    yes  small
+2          45   88.1  108.8  108.5  108.8  108.5       35.2  103.2  103.0   11.1    10.6     no     no
+3          16   78.2   82.5   41.8   82.5   41.8       38.9   77.6   36.6   10.0    10.4     no     no
+4         462   68.7  141.4  137.8  141.4  137.8       39.4  136.7  132.9    8.8    11.5    yes  large
+[ 2024-04-02 23:03:20,188 ] 64 root - INFO - Test Dataframe Head  : 
+   Unnamed: 0   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height Result      Type
+0         361   83.0   24.2   86.6   24.2   86.6       35.6   19.2   81.6   11.4    10.2    yes  moderate
+1          73   96.2  136.3  180.3  136.3  180.3       41.4  130.8  174.6   10.8    12.3    yes     small
+2         374   79.1  113.4   99.2  113.4   99.2       34.1  108.6   94.2   10.4    10.2    yes  moderate
+3         155   98.3  130.7  138.9  130.7  138.9       37.9  125.4  133.0   11.2    11.2     no        no
+4         104  101.0  125.0   16.9  125.0   16.9       37.8  119.5   11.2   11.5    11.2    yes  moderate
+[ 2024-04-02 23:03:20,189 ] 75 root - INFO - Obtaining preprocessing object
+[ 2024-04-02 23:03:20,189 ] 26 root - INFO - Initiating get_data_transformation_object
+[ 2024-04-02 23:03:20,189 ] 47 root - INFO - preprocessor object created successfully
+[ 2024-04-02 23:03:20,197 ] 23 root - INFO - -------Data Transformation successfull-------
+[ 2024-04-02 23:03:20,197 ] 24 root - INFO - =======================================================================
+[ 2024-04-02 23:03:20,197 ] 27 root - INFO - -------Model Training started-------
+[ 2024-04-02 23:03:20,285 ] 34 root - INFO - Model Report : {'random_forest': 82.67, 'logistic_regression': 82.0, 'decision_tree': 77.33}
+[ 2024-04-02 23:03:20,286 ] 47 root - INFO - Best Model Found , Model Name : random_forest , R2 Score : 82.67
+[ 2024-04-02 23:03:20,287 ] 30 root - INFO - -------Model Training successfull-------
+[ 2024-04-02 23:03:20,288 ] 31 root - INFO - =======================================================================

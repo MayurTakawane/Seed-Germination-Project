@@ -1,0 +1,1515 @@
+[ 2024-04-02 23:45:58,566 ] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2024-04-02 23:45:58,566 ] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-04-02 23:46:05,691 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:46:05] "GET / HTTP/1.1" 200 -
+[ 2024-04-02 23:46:05,802 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:46:05] "[36mGET /static/css/corn%20diplay.png HTTP/1.1[0m" 304 -
+[ 2024-04-02 23:46:05,804 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:46:05] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+[ 2024-04-02 23:46:05,815 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:46:05] "[35m[1mGET /static/css/corn%20video.mp4 HTTP/1.1[0m" 206 -
+[ 2024-04-02 23:46:19,157 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:46:19] "POST /openwebcam HTTP/1.1" 200 -
+[ 2024-04-02 23:46:19,170 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:46:19] "[36mGET /static/css/displayImage.css HTTP/1.1[0m" 304 -
+[ 2024-04-02 23:46:19,171 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:46:19] "[36mGET /static/css/corn%202.jpg HTTP/1.1[0m" 304 -
+[ 2024-04-02 23:46:22,832 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:46:22] "POST /RunningMacros HTTP/1.1" 200 -
+[ 2024-04-02 23:46:22,843 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:46:22] "[36mGET /static/css/ViewResults.css HTTP/1.1[0m" 304 -
+[ 2024-04-02 23:46:22,844 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:46:22] "[36mGET /static/css/corn%201.jpg HTTP/1.1[0m" 304 -
+[ 2024-04-02 23:46:23,884 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  94.0  132.0  16.0  132.0  16.0       37.0  126.0  10.0   12.0    12.0
+[ 2024-04-02 23:46:24,057 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  89.0  233.0  17.0  233.0  17.0       36.0  228.0  11.0   11.0    12.0
+[ 2024-04-02 23:46:24,071 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  91.0  156.0  17.0  156.0  17.0       36.0  151.0  11.0   11.0    11.0
+[ 2024-04-02 23:46:24,084 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  80.0  208.0  17.0  208.0  17.0       34.0  202.0  11.0   10.0    11.0
+[ 2024-04-02 23:46:24,098 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  87.0  81.0  18.0  81.0  18.0       35.0  76.0  12.0   11.0    11.0
+[ 2024-04-02 23:46:24,111 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  80.0  106.0  17.0  106.0  17.0       37.0  102.0  12.0   10.0    10.0
+[ 2024-04-02 23:46:24,127 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  72.0  183.0  17.0  183.0  17.0       32.0  178.0  12.0    9.0    10.0
+[ 2024-04-02 23:46:24,141 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter   BX    BY  Width  Height
+0  88.0  12.0  17.0  12.0  17.0       41.0  7.0  12.0   11.0    11.0
+[ 2024-04-02 23:46:24,156 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  76.0  34.0  18.0  34.0  18.0       41.0  30.0  13.0   10.0    10.0
+[ 2024-04-02 23:46:24,171 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  80.0  57.0  18.0  57.0  18.0       33.0  52.0  13.0   10.0    10.0
+[ 2024-04-02 23:46:24,185 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  84.0  234.0  38.0  234.0  38.0       35.0  228.0  33.0   10.0    11.0
+[ 2024-04-02 23:46:24,199 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  85.0  134.0  39.0  134.0  39.0       34.0  128.0  34.0   10.0    11.0
+[ 2024-04-02 23:46:24,215 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  88.0  206.0  41.0  206.0  41.0       35.0  201.0  35.0   11.0    11.0
+[ 2024-04-02 23:46:24,230 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  86.0  182.0  41.0  182.0  41.0       35.0  177.0  36.0   11.0    11.0
+[ 2024-04-02 23:46:24,246 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  94.0  58.0  41.0  58.0  41.0       36.0  52.0  36.0   11.0    11.0
+[ 2024-04-02 23:46:24,260 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  71.0  107.0  41.0  107.0  41.0       32.0  102.0  36.0    9.0    10.0
+[ 2024-04-02 23:46:24,276 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  78.0  82.0  42.0  82.0  42.0       39.0  78.0  37.0   10.0    10.0
+[ 2024-04-02 23:46:24,290 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  78.0  157.0  42.0  157.0  42.0       34.0  152.0  37.0   10.0    10.0
+[ 2024-04-02 23:46:24,307 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter   BX    BY  Width  Height
+0  94.0  12.0  42.0  12.0  42.0       37.0  6.0  37.0   12.0    11.0
+[ 2024-04-02 23:46:24,322 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  80.0  35.0  42.0  35.0  42.0       34.0  30.0  37.0   10.0    10.0
+[ 2024-04-02 23:46:24,336 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  87.0  233.0  60.0  233.0  60.0       36.0  227.0  55.0   11.0    11.0
+[ 2024-04-02 23:46:24,350 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  83.0  207.0  61.0  207.0  61.0       34.0  202.0  56.0   10.0    10.0
+[ 2024-04-02 23:46:24,363 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  86.0  157.0  63.0  157.0  63.0       35.0  152.0  57.0   11.0    11.0
+[ 2024-04-02 23:46:24,377 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  75.0  182.0  62.0  182.0  62.0       37.0  178.0  57.0    9.0    10.0
+[ 2024-04-02 23:46:24,390 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  92.0  107.0  64.0  107.0  64.0       36.0  102.0  58.0   11.0    11.0
+[ 2024-04-02 23:46:24,404 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  92.0  135.0  63.0  135.0  63.0       37.0  129.0  58.0   11.0    12.0
+[ 2024-04-02 23:46:24,416 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  90.0  82.0  64.0  82.0  64.0       36.0  77.0  58.0   11.0    11.0
+[ 2024-04-02 23:46:24,431 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  93.0  59.0  66.0  59.0  66.0       36.0  54.0  61.0   11.0    11.0
+[ 2024-04-02 23:46:24,444 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter   BX    BY  Width  Height
+0  93.0  12.0  66.0  12.0  66.0       36.0  7.0  61.0   12.0    11.0
+[ 2024-04-02 23:46:24,458 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  94.0  36.0  67.0  36.0  67.0       36.0  30.0  62.0   11.0    11.0
+[ 2024-04-02 23:46:24,471 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  80.0  233.0  84.0  233.0  84.0       40.0  227.0  79.0   12.0    10.0
+[ 2024-04-02 23:46:24,485 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  86.0  206.0  85.0  206.0  85.0       35.0  201.0  80.0   10.0    11.0
+[ 2024-04-02 23:46:24,499 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  80.0  182.0  85.0  182.0  85.0       34.0  177.0  80.0   10.0    10.0
+[ 2024-04-02 23:46:24,512 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  63.0  158.0  85.0  158.0  85.0       30.0  154.0  80.0    9.0     9.0
+[ 2024-04-02 23:46:24,526 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  84.0  135.0  86.0  135.0  86.0       34.0  130.0  81.0   10.0    10.0
+[ 2024-04-02 23:46:24,542 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  89.0  83.0  87.0  83.0  87.0       36.0  78.0  81.0   11.0    11.0
+[ 2024-04-02 23:46:24,556 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  87.0  109.0  86.0  109.0  86.0       38.0  103.0  81.0   11.0    11.0
+[ 2024-04-02 23:46:24,569 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  83.0  60.0  87.0  60.0  87.0       36.0  55.0  82.0   11.0    10.0
+[ 2024-04-02 23:46:24,583 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  85.0  37.0  89.0  37.0  89.0       37.0  32.0  84.0   11.0    10.0
+[ 2024-04-02 23:46:24,596 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter   BX    BY  Width  Height
+0  86.0  14.0  89.0  14.0  89.0       35.0  8.0  84.0   11.0    10.0
+[ 2024-04-02 23:46:24,609 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  84.0  231.0  105.0  231.0  105.0       34.0  226.0  100.0   11.0    10.0
+[ 2024-04-02 23:46:24,622 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  82.0  206.0  105.0  206.0  105.0       34.0  201.0  100.0   10.0    10.0
+[ 2024-04-02 23:46:24,637 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  76.0  183.0  105.0  183.0  105.0       33.0  178.0  101.0   10.0    10.0
+[ 2024-04-02 23:46:24,651 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  62.0  158.0  106.0  158.0  106.0       32.0  154.0  102.0    9.0     9.0
+[ 2024-04-02 23:46:24,664 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  72.0  135.0  107.0  135.0  107.0       33.0  131.0  102.0   10.0    10.0
+[ 2024-04-02 23:46:24,677 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  88.0  109.0  108.0  109.0  108.0       35.0  103.0  103.0   11.0    11.0
+[ 2024-04-02 23:46:24,691 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  88.0  84.0  109.0  84.0  109.0       35.0  78.0  104.0   11.0    10.0
+[ 2024-04-02 23:46:24,704 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  92.0  61.0  110.0  61.0  110.0       36.0  56.0  104.0   11.0    11.0
+[ 2024-04-02 23:46:24,717 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  88.0  38.0  110.0  38.0  110.0       35.0  32.0  105.0   11.0    10.0
+[ 2024-04-02 23:46:24,730 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  77.0  15.0  110.0  15.0  110.0       35.0  10.0  106.0   10.0    10.0
+[ 2024-04-02 23:46:24,744 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  86.0  232.0  126.0  232.0  126.0       34.0  227.0  120.0   11.0    10.0
+[ 2024-04-02 23:46:24,757 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  70.0  207.0  125.0  207.0  125.0       32.0  202.0  121.0   10.0    10.0
+[ 2024-04-02 23:46:24,772 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  80.0  183.0  127.0  183.0  127.0       34.0  178.0  122.0   10.0    10.0
+[ 2024-04-02 23:46:24,785 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  76.0  159.0  128.0  159.0  128.0       34.0  154.0  123.0   10.0    10.0
+[ 2024-04-02 23:46:24,798 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  85.0  136.0  128.0  136.0  128.0       35.0  130.0  123.0   11.0    11.0
+[ 2024-04-02 23:46:24,811 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  81.0  110.0  130.0  110.0  130.0       34.0  105.0  125.0   10.0    10.0
+[ 2024-04-02 23:46:24,825 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  91.0  62.0  132.0  62.0  132.0       36.0  57.0  126.0   11.0    11.0
+[ 2024-04-02 23:46:24,839 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  81.0  85.0  131.0  85.0  131.0       34.0  80.0  126.0   11.0    10.0
+[ 2024-04-02 23:46:24,852 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  92.0  39.0  132.0  39.0  132.0       36.0  33.0  127.0   11.0    11.0
+[ 2024-04-02 23:46:24,865 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter   BX     BY  Width  Height
+0  92.0  15.0  133.0  15.0  133.0       36.0  9.0  128.0   11.0    11.0
+[ 2024-04-02 23:46:24,879 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  85.0  233.0  154.0  233.0  154.0       35.0  227.0  149.0   11.0    11.0
+[ 2024-04-02 23:46:24,892 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  83.0  206.0  154.0  206.0  154.0       35.0  201.0  149.0   11.0    11.0
+[ 2024-04-02 23:46:24,905 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  75.0  182.0  154.0  182.0  154.0       34.0  177.0  150.0   10.0    10.0
+[ 2024-04-02 23:46:24,919 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  84.0  158.0  155.0  158.0  155.0       34.0  153.0  150.0   10.0    11.0
+[ 2024-04-02 23:46:24,932 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  87.0  136.0  156.0  136.0  156.0       38.0  130.0  150.0   11.0    11.0
+[ 2024-04-02 23:46:24,946 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  80.0  110.0  156.0  110.0  156.0       34.0  104.0  151.0   10.0    11.0
+[ 2024-04-02 23:46:24,959 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  92.0  86.0  156.0  86.0  156.0       36.0  80.0  151.0   11.0    10.0
+[ 2024-04-02 23:46:24,972 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  90.0  17.0  157.0  17.0  157.0       38.0  12.0  152.0   11.0    11.0
+[ 2024-04-02 23:46:24,987 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  87.0  40.0  159.0  40.0  159.0       35.0  35.0  153.0   10.0    11.0
+[ 2024-04-02 23:46:25,000 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  77.0  63.0  158.0  63.0  158.0       34.0  58.0  153.0   10.0    10.0
+[ 2024-04-02 23:46:25,014 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  84.0  206.0  179.0  206.0  179.0       34.0  201.0  174.0   10.0    11.0
+[ 2024-04-02 23:46:25,028 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  91.0  182.0  180.0  182.0  180.0       36.0  177.0  174.0   10.0    11.0
+[ 2024-04-02 23:46:25,042 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  85.0  232.0  179.0  232.0  179.0       35.0  226.0  174.0   10.0    11.0
+[ 2024-04-02 23:46:25,056 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  96.0  136.0  180.0  136.0  180.0       41.0  131.0  175.0   11.0    12.0
+[ 2024-04-02 23:46:25,073 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  82.0  159.0  180.0  159.0  180.0       34.0  154.0  175.0   10.0    11.0
+[ 2024-04-02 23:46:25,087 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  75.0  110.0  180.0  110.0  180.0       35.0  106.0  175.0   10.0    10.0
+[ 2024-04-02 23:46:25,101 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  96.0  87.0  182.0  87.0  182.0       38.0  81.0  176.0   12.0    11.0
+[ 2024-04-02 23:46:25,114 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  89.0  64.0  181.0  64.0  181.0       35.0  59.0  176.0   11.0    10.0
+[ 2024-04-02 23:46:25,127 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  94.0  18.0  182.0  18.0  182.0       36.0  12.0  177.0   11.0    10.0
+[ 2024-04-02 23:46:25,141 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  78.0  40.0  184.0  40.0  184.0       33.0  36.0  178.0   10.0    10.0
+[ 2024-04-02 23:46:25,154 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  79.0  206.0  202.0  206.0  202.0       34.0  201.0  197.0   10.0    11.0
+[ 2024-04-02 23:46:25,167 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  89.0  233.0  203.0  233.0  203.0       35.0  227.0  197.0   10.0    11.0
+[ 2024-04-02 23:46:25,180 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  83.0  160.0  203.0  160.0  203.0       35.0  154.0  198.0   10.0    11.0
+[ 2024-04-02 23:46:25,195 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  83.0  183.0  203.0  183.0  203.0       35.0  179.0  198.0   10.0    11.0
+[ 2024-04-02 23:46:25,208 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  92.0  136.0  204.0  136.0  204.0       37.0  131.0  198.0   11.0    12.0
+[ 2024-04-02 23:46:25,221 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  93.0  110.0  204.0  110.0  204.0       36.0  104.0  199.0   11.0    11.0
+[ 2024-04-02 23:46:25,235 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  91.0  88.0  205.0  88.0  205.0       36.0  82.0  199.0   11.0    11.0
+[ 2024-04-02 23:46:25,249 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  90.0  65.0  205.0  65.0  205.0       35.0  60.0  200.0   11.0    11.0
+[ 2024-04-02 23:46:25,266 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  99.0  19.0  206.0  19.0  206.0       38.0  13.0  200.0   12.0    12.0
+[ 2024-04-02 23:46:25,279 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  87.0  42.0  207.0  42.0  207.0       35.0  37.0  202.0   11.0    11.0
+[ 2024-04-02 23:46:25,293 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  96.0  205.0  226.0  205.0  226.0       38.0  200.0  220.0   11.0    12.0
+[ 2024-04-02 23:46:25,307 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  88.0  233.0  226.0  233.0  226.0       36.0  228.0  221.0   11.0    11.0
+[ 2024-04-02 23:46:25,321 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  90.0  183.0  227.0  183.0  227.0       37.0  178.0  221.0   11.0    11.0
+[ 2024-04-02 23:46:25,334 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  80.0  137.0  229.0  137.0  229.0       34.0  132.0  223.0   10.0    11.0
+[ 2024-04-02 23:46:25,389 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  92.0  160.0  229.0  160.0  229.0       36.0  155.0  223.0   10.0    12.0
+[ 2024-04-02 23:46:25,403 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  84.0  66.0  229.0  66.0  229.0       42.0  61.0  223.0   11.0    10.0
+[ 2024-04-02 23:46:25,416 ] 21 root - INFO - New data : 
+    Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  100.0  20.0  230.0  20.0  230.0       38.0  14.0  224.0   11.0    12.0
+[ 2024-04-02 23:46:25,430 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  93.0  44.0  229.0  44.0  229.0       36.0  38.0  224.0   11.0    11.0
+[ 2024-04-02 23:46:25,444 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  78.0  88.0  229.0  88.0  229.0       34.0  83.0  224.0   10.0    11.0
+[ 2024-04-02 23:46:25,458 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  86.0  111.0  230.0  111.0  230.0       35.0  106.0  224.0   10.0    11.0
+[ 2024-04-02 23:46:25,471 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX   BY  Width  Height
+0  114.0  244.0  11.0  244.0  11.0       41.0  238.0  5.0   14.0    12.0
+[ 2024-04-02 23:46:25,485 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX   BY  Width  Height
+0  112.0  269.0  14.0  269.0  14.0       41.0  263.0  8.0   12.0    12.0
+[ 2024-04-02 23:46:25,498 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  98.0  216.0  16.0  216.0  16.0       38.0  210.0  11.0   12.0    11.0
+[ 2024-04-02 23:46:25,512 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  110.0  156.0  17.0  156.0  17.0       39.0  151.0  11.0   12.0    12.0
+[ 2024-04-02 23:46:25,527 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  101.0  125.0  17.0  125.0  17.0       38.0  120.0  11.0   12.0    11.0
+[ 2024-04-02 23:46:25,541 ] 21 root - INFO - New data : 
+    Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  100.0  98.0  18.0  98.0  18.0       38.0  93.0  12.0   12.0    11.0
+[ 2024-04-02 23:46:25,555 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  112.0  185.0  18.0  185.0  18.0       40.0  180.0  12.0   12.0    12.0
+[ 2024-04-02 23:46:25,567 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  92.0  71.0  18.0  71.0  18.0       39.0  65.0  13.0   11.0    11.0
+[ 2024-04-02 23:46:25,581 ] 21 root - INFO - New data : 
+    Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  105.0  41.0  22.0  41.0  22.0       40.0  35.0  16.0   12.0    12.0
+[ 2024-04-02 23:46:25,595 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  99.0  15.0  22.0  15.0  22.0       37.0  10.0  17.0   11.0    11.0
+[ 2024-04-02 23:46:25,608 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  114.0  269.0  36.0  269.0  36.0       43.0  263.0  30.0   12.0    12.0
+[ 2024-04-02 23:46:25,621 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  108.0  217.0  37.0  217.0  37.0       40.0  211.0  31.0   12.0    12.0
+[ 2024-04-02 23:46:25,634 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  112.0  156.0  38.0  156.0  38.0       42.0  150.0  32.0   12.0    12.0
+[ 2024-04-02 23:46:25,648 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  99.0  187.0  38.0  187.0  38.0       38.0  181.0  32.0   12.0    11.0
+[ 2024-04-02 23:46:25,662 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  116.0  242.0  38.0  242.0  38.0       40.0  237.0  32.0   12.0    12.0
+[ 2024-04-02 23:46:25,676 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  106.0  127.0  40.0  127.0  40.0       39.0  121.0  34.0   12.0    12.0
+[ 2024-04-02 23:46:25,689 ] 21 root - INFO - New data : 
+    Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  103.0  99.0  40.0  99.0  40.0       38.0  93.0  35.0   12.0    11.0
+[ 2024-04-02 23:46:25,703 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  99.0  70.0  41.0  70.0  41.0       37.0  64.0  36.0   12.0    11.0
+[ 2024-04-02 23:46:25,717 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  91.0  15.0  44.0  15.0  44.0       38.0  10.0  38.0   11.0    11.0
+[ 2024-04-02 23:46:25,731 ] 21 root - INFO - New data : 
+    Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  109.0  40.0  45.0  40.0  45.0       43.0  34.0  39.0   12.0    12.0
+[ 2024-04-02 23:46:25,745 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  108.0  268.0  58.0  268.0  58.0       40.0  262.0  52.0   12.0    12.0
+[ 2024-04-02 23:46:25,758 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  112.0  242.0  59.0  242.0  59.0       40.0  236.0  53.0   12.0    12.0
+[ 2024-04-02 23:46:25,771 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  93.0  218.0  60.0  218.0  60.0       37.0  213.0  55.0   11.0    11.0
+[ 2024-04-02 23:46:25,785 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  102.0  190.0  64.0  190.0  64.0       38.0  184.0  58.0   12.0    11.0
+[ 2024-04-02 23:46:25,798 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  108.0  159.0  64.0  159.0  64.0       40.0  153.0  58.0   12.0    12.0
+[ 2024-04-02 23:46:25,811 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  84.0  130.0  65.0  130.0  65.0       34.0  125.0  60.0   11.0    10.0
+[ 2024-04-02 23:46:25,824 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter    BX    BY  Width  Height
+0  105.0  102.0  68.0  102.0  68.0       39.0  96.0  62.0   12.0    12.0
+[ 2024-04-02 23:46:25,838 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  87.0  72.0  68.0  72.0  68.0       35.0  66.0  62.0   11.0    10.0
+[ 2024-04-02 23:46:25,854 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  98.0  40.0  70.0  40.0  70.0       37.0  35.0  64.0   11.0    11.0
+[ 2024-04-02 23:46:25,868 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter   BX    BY  Width  Height
+0  97.0  14.0  71.0  14.0  71.0       36.0  8.0  65.0   11.0    11.0
+[ 2024-04-02 23:46:25,881 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  102.0  243.0  81.0  243.0  81.0       38.0  237.0  76.0   11.0    11.0
+[ 2024-04-02 23:46:25,896 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  114.0  268.0  82.0  268.0  82.0       43.0  261.0  77.0   14.0    11.0
+[ 2024-04-02 23:46:25,909 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  106.0  218.0  84.0  218.0  84.0       39.0  213.0  78.0   11.0    12.0
+[ 2024-04-02 23:46:25,924 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  102.0  188.0  88.0  188.0  88.0       38.0  183.0  82.0   12.0    11.0
+[ 2024-04-02 23:46:25,937 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  99.0  127.0  90.0  127.0  90.0       38.0  122.0  84.0   12.0    11.0
+[ 2024-04-02 23:46:25,950 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter    BX    BY  Width  Height
+0  100.0  103.0  90.0  103.0  90.0       37.0  98.0  85.0   12.0    11.0
+[ 2024-04-02 23:46:25,964 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  108.0  156.0  91.0  156.0  91.0       40.0  150.0  85.0   12.0    12.0
+[ 2024-04-02 23:46:25,978 ] 21 root - INFO - New data : 
+    Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  102.0  71.0  92.0  71.0  92.0       38.0  65.0  87.0   12.0    11.0
+[ 2024-04-02 23:46:25,991 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  93.0  42.0  95.0  42.0  95.0       37.0  36.0  90.0   12.0    10.0
+[ 2024-04-02 23:46:26,005 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  98.0  16.0  96.0  16.0  96.0       38.0  11.0  91.0   11.0    11.0
+[ 2024-04-02 23:46:26,019 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  109.0  271.0  106.0  271.0  106.0       40.0  265.0  101.0   13.0    11.0
+[ 2024-04-02 23:46:26,033 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  110.0  221.0  110.0  221.0  110.0       40.0  215.0  103.0   12.0    12.0
+[ 2024-04-02 23:46:26,050 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  105.0  245.0  108.0  245.0  108.0       39.0  240.0  103.0   12.0    11.0
+[ 2024-04-02 23:46:26,068 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  103.0  129.0  112.0  129.0  112.0       39.0  124.0  106.0   12.0    11.0
+[ 2024-04-02 23:46:26,083 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  104.0  187.0  112.0  187.0  112.0       39.0  182.0  106.0   12.0    12.0
+[ 2024-04-02 23:46:26,096 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  83.0  160.0  114.0  160.0  114.0       34.0  154.0  109.0   11.0    10.0
+[ 2024-04-02 23:46:26,110 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter    BX     BY  Width  Height
+0  99.0  102.0  115.0  102.0  115.0       37.0  97.0  109.0   12.0    11.0
+[ 2024-04-02 23:46:26,122 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  95.0  74.0  118.0  74.0  118.0       37.0  68.0  113.0   12.0    11.0
+[ 2024-04-02 23:46:26,136 ] 21 root - INFO - New data : 
+    Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  101.0  16.0  121.0  16.0  121.0       39.0  11.0  115.0   12.0    11.0
+[ 2024-04-02 23:46:26,149 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  98.0  44.0  121.0  44.0  121.0       38.0  38.0  116.0   12.0    11.0
+[ 2024-04-02 23:46:26,163 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  106.0  271.0  131.0  271.0  131.0       39.0  265.0  125.0   12.0    12.0
+[ 2024-04-02 23:46:26,177 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  102.0  250.0  133.0  250.0  133.0       39.0  244.0  127.0   12.0    12.0
+[ 2024-04-02 23:46:26,191 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  104.0  220.0  134.0  220.0  134.0       38.0  214.0  128.0   12.0    12.0
+[ 2024-04-02 23:46:26,204 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  99.0  190.0  134.0  190.0  134.0       38.0  184.0  129.0   12.0    11.0
+[ 2024-04-02 23:46:26,218 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  90.0  160.0  138.0  160.0  138.0       36.0  155.0  132.0   11.0    11.0
+[ 2024-04-02 23:46:26,232 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  98.0  131.0  139.0  131.0  139.0       38.0  125.0  133.0   11.0    11.0
+[ 2024-04-02 23:46:26,245 ] 21 root - INFO - New data : 
+    Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  108.0  76.0  142.0  76.0  142.0       39.0  70.0  136.0   12.0    12.0
+[ 2024-04-02 23:46:26,259 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter    BX     BY  Width  Height
+0  100.0  104.0  142.0  104.0  142.0       38.0  99.0  137.0   12.0    11.0
+[ 2024-04-02 23:46:26,272 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  95.0  19.0  144.0  19.0  144.0       37.0  13.0  139.0   11.0    11.0
+[ 2024-04-02 23:46:26,285 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  96.0  46.0  145.0  46.0  145.0       40.0  40.0  140.0   12.0    11.0
+[ 2024-04-02 23:46:26,300 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  103.0  218.0  155.0  218.0  155.0       38.0  213.0  149.0   12.0    12.0
+[ 2024-04-02 23:46:26,314 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  108.0  271.0  157.0  271.0  157.0       39.0  265.0  151.0   12.0    12.0
+[ 2024-04-02 23:46:26,328 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  106.0  249.0  157.0  249.0  157.0       41.0  243.0  152.0   12.0    11.0
+[ 2024-04-02 23:46:26,343 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  101.0  191.0  158.0  191.0  158.0       38.0  186.0  152.0   11.0    12.0
+[ 2024-04-02 23:46:26,358 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  98.0  161.0  162.0  161.0  162.0       37.0  156.0  156.0   12.0    11.0
+[ 2024-04-02 23:46:26,373 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  102.0  106.0  164.0  106.0  164.0       38.0  101.0  159.0   12.0    11.0
+[ 2024-04-02 23:46:26,387 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  83.0  132.0  164.0  132.0  164.0       35.0  126.0  159.0   11.0    10.0
+[ 2024-04-02 23:46:26,402 ] 21 root - INFO - New data : 
+    Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  104.0  76.0  167.0  76.0  167.0       38.0  70.0  161.0   12.0    11.0
+[ 2024-04-02 23:46:26,417 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  97.0  19.0  168.0  19.0  168.0       37.0  13.0  162.0   11.0    11.0
+[ 2024-04-02 23:46:26,431 ] 21 root - INFO - New data : 
+    Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  104.0  47.0  168.0  47.0  168.0       39.0  41.0  162.0   12.0    11.0
+[ 2024-04-02 23:46:26,445 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  113.0  271.0  185.0  271.0  185.0       41.0  265.0  179.0   12.0    12.0
+[ 2024-04-02 23:46:26,460 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  113.0  248.0  185.0  248.0  185.0       41.0  242.0  179.0   14.0    12.0
+[ 2024-04-02 23:46:26,474 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  106.0  221.0  186.0  221.0  186.0       39.0  216.0  180.0   12.0    12.0
+[ 2024-04-02 23:46:26,489 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  103.0  192.0  188.0  192.0  188.0       38.0  187.0  182.0   12.0    11.0
+[ 2024-04-02 23:46:26,503 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  83.0  107.0  188.0  107.0  188.0       34.0  102.0  183.0   11.0    10.0
+[ 2024-04-02 23:46:26,517 ] 21 root - INFO - New data : 
+    Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  106.0  78.0  189.0  78.0  189.0       38.0  72.0  183.0   12.0    12.0
+[ 2024-04-02 23:46:26,529 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  97.0  165.0  190.0  165.0  190.0       37.0  160.0  184.0   11.0    11.0
+[ 2024-04-02 23:46:26,543 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  101.0  132.0  190.0  132.0  190.0       38.0  126.0  184.0   12.0    12.0
+[ 2024-04-02 23:46:26,557 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  95.0  47.0  191.0  47.0  191.0       37.0  42.0  185.0   12.0    11.0
+[ 2024-04-02 23:46:26,571 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  93.0  18.0  191.0  18.0  191.0       36.0  13.0  185.0   11.0    11.0
+[ 2024-04-02 23:46:26,585 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  103.0  272.0  210.0  272.0  210.0       38.0  266.0  204.0   12.0    11.0
+[ 2024-04-02 23:46:26,600 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  106.0  251.0  211.0  251.0  211.0       40.0  246.0  205.0   12.0    12.0
+[ 2024-04-02 23:46:26,615 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  106.0  226.0  212.0  226.0  212.0       40.0  220.0  206.0   12.0    11.0
+[ 2024-04-02 23:46:26,627 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  102.0  194.0  213.0  194.0  213.0       40.0  188.0  207.0   12.0    12.0
+[ 2024-04-02 23:46:26,640 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  104.0  110.0  213.0  110.0  213.0       39.0  104.0  207.0   12.0    12.0
+[ 2024-04-02 23:46:26,654 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  94.0  167.0  214.0  167.0  214.0       36.0  162.0  208.0   11.0    11.0
+[ 2024-04-02 23:46:26,667 ] 21 root - INFO - New data : 
+    Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  101.0  80.0  215.0  80.0  215.0       39.0  75.0  209.0   12.0    12.0
+[ 2024-04-02 23:46:26,681 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  99.0  137.0  215.0  137.0  215.0       37.0  131.0  209.0   11.0    11.0
+[ 2024-04-02 23:46:26,694 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  93.0  19.0  215.0  19.0  215.0       38.0  14.0  210.0   11.0    11.0
+[ 2024-04-02 23:46:26,707 ] 21 root - INFO - New data : 
+    Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  100.0  50.0  215.0  50.0  215.0       38.0  44.0  210.0   12.0    11.0
+[ 2024-04-02 23:46:26,720 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  109.0  273.0  235.0  273.0  235.0       40.0  267.0  229.0   12.0    12.0
+[ 2024-04-02 23:46:26,734 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  100.0  252.0  237.0  252.0  237.0       39.0  246.0  231.0   12.0    11.0
+[ 2024-04-02 23:46:26,747 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  110.0  228.0  238.0  228.0  238.0       39.0  222.0  231.0   12.0    12.0
+[ 2024-04-02 23:46:26,762 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  100.0  166.0  238.0  166.0  238.0       38.0  161.0  233.0   12.0    11.0
+[ 2024-04-02 23:46:26,777 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  105.0  196.0  240.0  196.0  240.0       38.0  190.0  234.0   11.0    12.0
+[ 2024-04-02 23:46:26,790 ] 21 root - INFO - New data : 
+    Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  104.0  52.0  241.0  52.0  241.0       38.0  46.0  235.0   12.0    12.0
+[ 2024-04-02 23:46:26,803 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  99.0  83.0  241.0  83.0  241.0       38.0  78.0  236.0   12.0    11.0
+[ 2024-04-02 23:46:26,816 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  107.0  113.0  242.0  113.0  242.0       39.0  107.0  236.0   12.0    12.0
+[ 2024-04-02 23:46:26,829 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  97.0  22.0  242.0  22.0  242.0       37.0  17.0  236.0   12.0    11.0
+[ 2024-04-02 23:46:26,842 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  111.0  137.0  242.0  137.0  242.0       39.0  132.0  236.0   12.0    12.0
+[ 2024-04-02 23:46:26,856 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter     BX   BY  Width  Height
+0  76.0  84.0  12.0  40.0  12.0       34.0  151.0  4.0   11.0    10.0
+[ 2024-04-02 23:46:26,869 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX   BY  Width  Height
+0  77.0  40.0  13.0  71.0  13.0       35.0  51.0  5.0    9.0    11.0
+[ 2024-04-02 23:46:26,882 ] 21 root - INFO - New data : 
+   Area      X     Y    XM    YM  Perimeter   BX   BY  Width  Height
+0  83.0  141.0  14.0  40.0  14.0       35.0  5.0  6.0   10.0    10.0
+[ 2024-04-02 23:46:26,895 ] 21 root - INFO - New data : 
+   Area      X     Y    XM    YM  Perimeter     BX   BY  Width  Height
+0  76.0  162.0  15.0  56.0  15.0       32.0  123.0  7.0   10.0    10.0
+[ 2024-04-02 23:46:26,909 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter    BX   BY  Width  Height
+0  73.0  164.0  15.0  171.0  15.0       33.0  50.0  7.0   10.0    10.0
+[ 2024-04-02 23:46:26,922 ] 21 root - INFO - New data : 
+   Area     X     Y     XM    YM  Perimeter     BX   BY  Width  Height
+0  83.0  40.0  17.0  141.0  17.0       43.0  187.0  8.0   11.0    10.0
+[ 2024-04-02 23:46:26,935 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter     BX    BY  Width  Height
+0  86.0  53.0  18.0  56.0  18.0       36.0  136.0  10.0   11.0     9.0
+[ 2024-04-02 23:46:26,950 ] 21 root - INFO - New data : 
+   Area      X     Y    XM    YM  Perimeter     BX    BY  Width  Height
+0  78.0  164.0  18.0  32.0  18.0       36.0  149.0  10.0   12.0     9.0
+[ 2024-04-02 23:46:26,963 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter     BX    BY  Width  Height
+0  75.0  98.0  19.0  55.0  19.0       33.0  113.0  10.0   11.0    11.0
+[ 2024-04-02 23:46:26,976 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter     BX    BY  Width  Height
+0  78.0  10.0  21.0  96.0  21.0       38.0  123.0  11.0   12.0    11.0
+[ 2024-04-02 23:46:26,990 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  65.0  54.0  22.0  41.0  22.0       36.0  70.0  14.0   13.0    11.0
+[ 2024-04-02 23:46:27,004 ] 21 root - INFO - New data : 
+   Area     X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  67.0  83.0  23.0  132.0  23.0       37.0  155.0  16.0   12.0    10.0
+[ 2024-04-02 23:46:27,018 ] 21 root - INFO - New data : 
+   Area     X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  78.0  26.0  23.0  139.0  23.0       34.0  123.0  17.0   10.0    10.0
+[ 2024-04-02 23:46:27,032 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  80.0  10.0  23.0  49.0  23.0       35.0  64.0  20.0   11.0    10.0
+[ 2024-04-02 23:46:27,044 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  72.0  18.0  25.0  84.0  25.0       41.0  62.0  22.0   11.0    10.0
+[ 2024-04-02 23:46:27,059 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter    BX    BY  Width  Height
+0  76.0  138.0  28.0  128.0  28.0       35.0  35.0  22.0   10.0     9.0
+[ 2024-04-02 23:46:27,074 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter    BX    BY  Width  Height
+0  84.0  127.0  30.0  113.0  30.0       36.0  96.0  24.0   10.0    11.0
+[ 2024-04-02 23:46:27,087 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter     BX    BY  Width  Height
+0  66.0  33.0  30.0  28.0  30.0       35.0  136.0  25.0   11.0    10.0
+[ 2024-04-02 23:46:27,101 ] 21 root - INFO - New data : 
+   Area     X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  73.0  37.0  31.0  154.0  31.0       44.0  134.0  27.0   10.0     9.0
+[ 2024-04-02 23:46:27,116 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  85.0  112.0  34.0  113.0  34.0       34.0  144.0  29.0   12.0    10.0
+[ 2024-04-02 23:46:27,130 ] 21 root - INFO - New data : 
+   Area     X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  88.0  40.0  34.0  114.0  34.0       36.0  170.0  30.0   11.0    11.0
+[ 2024-04-02 23:46:27,143 ] 21 root - INFO - New data : 
+   Area      X     Y    XM    YM  Perimeter   BX    BY  Width  Height
+0  71.0  127.0  34.0  34.0  34.0       38.0  5.0  32.0    9.0    10.0
+[ 2024-04-02 23:46:27,157 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter     BX    BY  Width  Height
+0  76.0  81.0  35.0  99.0  35.0       39.0  109.0  33.0   10.0    10.0
+[ 2024-04-02 23:46:27,170 ] 21 root - INFO - New data : 
+   Area     X     Y     XM    YM  Perimeter    BX    BY  Width  Height
+0  86.0  54.0  38.0  181.0  38.0       39.0  94.0  35.0   12.0    10.0
+[ 2024-04-02 23:46:27,184 ] 21 root - INFO - New data : 
+   Area      X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  76.0  162.0  39.0  55.0  39.0       35.0  24.0  36.0   13.0    10.0
+[ 2024-04-02 23:46:27,199 ] 21 root - INFO - New data : 
+   Area      X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  87.0  140.0  40.0  12.0  40.0       33.0  36.0  38.0   11.0    10.0
+[ 2024-04-02 23:46:27,212 ] 21 root - INFO - New data : 
+   Area     X     Y     XM    YM  Perimeter   BX    BY  Width  Height
+0  72.0  15.0  42.0  101.0  42.0       35.0  4.0  38.0   10.0    11.0
+[ 2024-04-02 23:46:27,225 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  81.0  98.0  43.0  71.0  43.0       39.0  80.0  39.0   11.0    10.0
+[ 2024-04-02 23:46:27,238 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  73.0  57.0  44.0  24.0  44.0       36.0  68.0  41.0   11.0    11.0
+[ 2024-04-02 23:46:27,251 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  76.0  56.0  45.0  92.0  45.0       38.0  66.0  43.0    9.0    11.0
+[ 2024-04-02 23:46:27,265 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  73.0  199.0  45.0  111.0  45.0       43.0  135.0  46.0   11.0    10.0
+[ 2024-04-02 23:46:27,278 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  68.0  100.0  45.0  198.0  45.0       36.0  170.0  46.0   11.0     9.0
+[ 2024-04-02 23:46:27,292 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter     BX    BY  Width  Height
+0  82.0  84.0  46.0  85.0  46.0       35.0  127.0  47.0   10.0    10.0
+[ 2024-04-02 23:46:27,305 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter     BX    BY  Width  Height
+0  83.0  36.0  46.0  73.0  46.0       34.0  131.0  49.0   10.0    12.0
+[ 2024-04-02 23:46:27,318 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter    BX    BY  Width  Height
+0  75.0  118.0  47.0  112.0  47.0       36.0  29.0  52.0   11.0    10.0
+[ 2024-04-02 23:46:27,332 ] 21 root - INFO - New data : 
+   Area      X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  79.0  123.0  48.0  10.0  48.0       34.0  45.0  53.0   10.0    10.0
+[ 2024-04-02 23:46:27,345 ] 21 root - INFO - New data : 
+   Area     X     Y   XM    YM  Perimeter    BX    BY  Width  Height
+0  70.0  56.0  48.0  8.0  48.0       34.0  82.0  53.0    9.0    10.0
+[ 2024-04-02 23:46:27,359 ] 21 root - INFO - New data : 
+   Area     X     Y     XM    YM  Perimeter    BX    BY  Width  Height
+0  80.0  34.0  50.0  101.0  50.0       37.0  66.0  54.0   11.0    10.0
+[ 2024-04-02 23:46:27,373 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  78.0  25.0  50.0  39.0  50.0       34.0  91.0  56.0   10.0    10.0
+[ 2024-04-02 23:46:27,386 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter    BX    BY  Width  Height
+0  70.0  139.0  57.0  161.0  57.0       34.0  19.0  58.0   13.0    11.0
+[ 2024-04-02 23:46:27,400 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  68.0  12.0  57.0  49.0  57.0       36.0  50.0  58.0   10.0    10.0
+[ 2024-04-02 23:46:27,413 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter    BX    BY  Width  Height
+0  77.0  141.0  57.0  176.0  57.0       36.0  66.0  60.0   10.0    10.0
+[ 2024-04-02 23:46:27,427 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter     BX    BY  Width  Height
+0  76.0  17.0  60.0  72.0  60.0       36.0  166.0  60.0   12.0    11.0
+[ 2024-04-02 23:46:27,440 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter     BX    BY  Width  Height
+0  85.0  98.0  60.0  95.0  60.0       33.0  108.0  62.0   10.0    11.0
+[ 2024-04-02 23:46:27,453 ] 21 root - INFO - New data : 
+   Area     X     Y     XM    YM  Perimeter    BX    BY  Width  Height
+0  76.0  85.0  61.0  131.0  61.0       38.0  95.0  63.0   11.0    10.0
+[ 2024-04-02 23:46:27,466 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter     BX    BY  Width  Height
+0  79.0  35.0  61.0  24.0  61.0       33.0  128.0  64.0   10.0     9.0
+[ 2024-04-02 23:46:27,479 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter   BX    BY  Width  Height
+0  66.0  126.0  63.0  140.0  63.0       36.0  4.0  65.0   13.0    10.0
+[ 2024-04-02 23:46:27,494 ] 21 root - INFO - New data : 
+   Area      X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  75.0  100.0  64.0  10.0  64.0       37.0  27.0  66.0   11.0    10.0
+[ 2024-04-02 23:46:27,507 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter    BX    BY  Width  Height
+0  76.0  162.0  70.0  193.0  70.0       37.0  65.0  67.0   10.0    12.0
+[ 2024-04-02 23:46:27,520 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  72.0  125.0  74.0  128.0  74.0       34.0  193.0  69.0   11.0    12.0
+[ 2024-04-02 23:46:27,534 ] 21 root - INFO - New data : 
+   Area     X     Y     XM    YM  Perimeter    BX    BY  Width  Height
+0  71.0  98.0  75.0  140.0  75.0       35.0  87.0  71.0   11.0    12.0
+[ 2024-04-02 23:46:27,548 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter   BX    BY  Width  Height
+0  70.0  70.0  77.0  25.0  77.0       38.0  3.0  72.0   11.0    10.0
+[ 2024-04-02 23:46:27,562 ] 21 root - INFO - New data : 
+   Area     X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  76.0  69.0  80.0  115.0  80.0       36.0  187.0  75.0   12.0    11.0
+[ 2024-04-02 23:46:27,575 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter    BX    BY  Width  Height
+0  75.0  120.0  80.0  198.0  80.0       39.0  26.0  76.0   10.0    10.0
+[ 2024-04-02 23:46:27,588 ] 21 root - INFO - New data : 
+   Area     X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  63.0  54.0  81.0  175.0  81.0       47.0  109.0  76.0   12.0    10.0
+[ 2024-04-02 23:46:27,602 ] 21 root - INFO - New data : 
+   Area     X     Y   XM    YM  Perimeter     BX    BY  Width  Height
+0  83.0  40.0  83.0  9.0  83.0       34.0  176.0  77.0   10.0    10.0
+[ 2024-04-02 23:46:27,618 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter    BX    BY  Width  Height
+0  84.0  122.0  84.0  128.0  84.0       39.0  51.0  79.0   11.0    11.0
+[ 2024-04-02 23:46:27,631 ] 21 root - INFO - New data : 
+   Area      X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  74.0  179.0  84.0  74.0  84.0       38.0  19.0  79.0   10.0    10.0
+[ 2024-04-02 23:46:27,646 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter    BX    BY  Width  Height
+0  82.0  112.0  84.0  179.0  84.0       40.0  50.0  82.0   10.0    10.0
+[ 2024-04-02 23:46:27,660 ] 21 root - INFO - New data : 
+   Area      X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  80.0  144.0  84.0  89.0  84.0       37.0  28.0  84.0   11.0    11.0
+[ 2024-04-02 23:46:27,673 ] 21 root - INFO - New data : 
+   Area      X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  80.0  113.0  89.0  10.0  89.0       37.0  87.0  88.0   12.0    10.0
+[ 2024-04-02 23:46:27,686 ] 21 root - INFO - New data : 
+   Area     X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  70.0  82.0  90.0  100.0  90.0       39.0  106.0  89.0   12.0    10.0
+[ 2024-04-02 23:46:27,701 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  74.0  100.0  90.0  141.0  90.0       35.0  110.0  93.0   10.0    10.0
+[ 2024-04-02 23:46:27,716 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter     BX    BY  Width  Height
+0  82.0  80.0  90.0  53.0  90.0       38.0  133.0  95.0   10.0    10.0
+[ 2024-04-02 23:46:27,729 ] 21 root - INFO - New data : 
+   Area      X     Y    XM    YM  Perimeter     BX    BY  Width  Height
+0  79.0  141.0  92.0  13.0  92.0       35.0  136.0  96.0   10.0    11.0
+[ 2024-04-02 23:46:27,742 ] 21 root - INFO - New data : 
+   Area     X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  87.0  98.0  96.0  101.0  96.0       35.0  109.0  99.0   10.0    10.0
+[ 2024-04-02 23:46:27,756 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX     BY  Width  Height
+0  74.0  10.0  96.0  67.0  96.0       32.0  96.0  100.0   10.0    10.0
+[ 2024-04-02 23:46:27,769 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter    BX     BY  Width  Height
+0  79.0  178.0  96.0  132.0  96.0       34.0  80.0  100.0   10.0     9.0
+[ 2024-04-02 23:46:27,782 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX     BY  Width  Height
+0  75.0  140.0  96.0  117.0  96.0       35.0  107.0  101.0   12.0    10.0
+[ 2024-04-02 23:46:27,796 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter    BX     BY  Width  Height
+0  82.0  200.0  98.0  156.0  98.0       35.0  35.0  102.0   10.0    10.0
+[ 2024-04-02 23:46:27,810 ] 21 root - INFO - New data : 
+   Area      X     Y    XM    YM  Perimeter     BX     BY  Width  Height
+0  73.0  112.0  98.0  33.0  98.0       37.0  110.0  104.0   10.0    10.0
+[ 2024-04-02 23:46:27,824 ] 21 root - INFO - New data : 
+   Area      X     Y    XM    YM  Perimeter    BX     BY  Width  Height
+0  67.0  182.0  99.0  24.0  99.0       32.0  20.0  107.0    9.0    10.0
+[ 2024-04-02 23:46:27,837 ] 21 root - INFO - New data : 
+   Area      X     Y    XM    YM  Perimeter     BX     BY  Width  Height
+0  75.0  198.0  99.0  24.0  99.0       36.0  190.0  108.0   11.0    10.0
+[ 2024-04-02 23:46:27,851 ] 21 root - INFO - New data : 
+   Area     X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  70.0  40.0  101.0  114.0  101.0       35.0  121.0  110.0   11.0     9.0
+[ 2024-04-02 23:46:27,863 ] 21 root - INFO - New data : 
+   Area     X      Y     XM     YM  Perimeter    BX     BY  Width  Height
+0  74.0  84.0  105.0  126.0  105.0       37.0  66.0  114.0   11.0    10.0
+[ 2024-04-02 23:46:27,877 ] 21 root - INFO - New data : 
+   Area     X      Y     XM     YM  Perimeter   BX     BY  Width  Height
+0  77.0  69.0  108.0  159.0  108.0       36.0  4.0  116.0   10.0    10.0
+[ 2024-04-02 23:46:27,890 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  75.0  15.0  109.0  51.0  109.0       34.0  51.0  118.0   12.0    11.0
+[ 2024-04-02 23:46:27,904 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter   BX     BY  Width  Height
+0  72.0  75.0  109.0  10.0  109.0       36.0  7.0  120.0   10.0     9.0
+[ 2024-04-02 23:46:27,917 ] 21 root - INFO - New data : 
+   Area      X      Y    XM     YM  Perimeter     BX     BY  Width  Height
+0  80.0  100.0  109.0  55.0  109.0       38.0  123.0  122.0   11.0    10.0
+[ 2024-04-02 23:46:27,931 ] 21 root - INFO - New data : 
+   Area      X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  74.0  181.0  110.0  68.0  110.0       39.0  90.0  125.0   10.0    11.0
+[ 2024-04-02 23:46:27,944 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter   BX     BY  Width  Height
+0  82.0  79.0  112.0  70.0  112.0       34.0  8.0  127.0   10.0    10.0
+[ 2024-04-02 23:46:27,958 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter   BX     BY  Width  Height
+0  78.0  97.0  114.0  86.0  114.0       34.0  5.0  128.0   11.0    10.0
+[ 2024-04-02 23:46:27,971 ] 21 root - INFO - New data : 
+   Area     X      Y     XM     YM  Perimeter    BX     BY  Width  Height
+0  75.0  10.0  114.0  138.0  114.0       34.0  66.0  131.0   10.0    10.0
+[ 2024-04-02 23:46:27,985 ] 21 root - INFO - New data : 
+   Area     X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  71.0  24.0  116.0  192.0  116.0       35.0  106.0  132.0   10.0    11.0
+[ 2024-04-02 23:46:27,999 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  82.0  140.0  117.0  140.0  117.0       34.0  174.0  133.0   10.0    11.0
+[ 2024-04-02 23:46:28,014 ] 21 root - INFO - New data : 
+   Area      X      Y    XM     YM  Perimeter     BX     BY  Width  Height
+0  82.0  198.0  117.0  71.0  117.0       40.0  192.0  136.0   10.0    10.0
+[ 2024-04-02 23:46:28,027 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter     BX     BY  Width  Height
+0  86.0  69.0  118.0  31.0  118.0       41.0  136.0  137.0   11.0    10.0
+[ 2024-04-02 23:46:28,041 ] 21 root - INFO - New data : 
+   Area     X      Y     XM     YM  Perimeter    BX     BY  Width  Height
+0  78.0  17.0  119.0  136.0  119.0       34.0  34.0  140.0   10.0    10.0
+[ 2024-04-02 23:46:28,057 ] 21 root - INFO - New data : 
+   Area      X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  77.0  124.0  120.0  41.0  120.0       41.0  46.0  142.0    9.0    10.0
+[ 2024-04-02 23:46:28,070 ] 21 root - INFO - New data : 
+   Area     X      Y   XM     YM  Perimeter    BX     BY  Width  Height
+0  82.0  58.0  122.0  9.0  122.0       34.0  81.0  143.0   11.0    12.0
+[ 2024-04-02 23:46:28,085 ] 21 root - INFO - New data : 
+   Area     X      Y     XM     YM  Perimeter    BX     BY  Width  Height
+0  76.0  15.0  122.0  128.0  122.0       38.0  19.0  144.0   10.0     9.0
+[ 2024-04-02 23:46:28,098 ] 21 root - INFO - New data : 
+   Area      X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  85.0  198.0  122.0  71.0  122.0       35.0  96.0  145.0   10.0    11.0
+[ 2024-04-02 23:46:28,112 ] 21 root - INFO - New data : 
+   Area      X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  80.0  111.0  123.0  55.0  123.0       35.0  48.0  147.0    9.0    10.0
+[ 2024-04-02 23:46:28,127 ] 21 root - INFO - New data : 
+   Area      X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  76.0  119.0  129.0  84.0  129.0       34.0  84.0  148.0   10.0    10.0
+[ 2024-04-02 23:46:28,140 ] 21 root - INFO - New data : 
+   Area     X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  76.0  58.0  132.0  115.0  132.0       36.0  154.0  148.0   11.0    10.0
+[ 2024-04-02 23:46:28,154 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  67.0  70.0  133.0  92.0  133.0       37.0  80.0  150.0   12.0    11.0
+[ 2024-04-02 23:46:28,167 ] 21 root - INFO - New data : 
+   Area     X      Y     XM     YM  Perimeter    BX     BY  Width  Height
+0  72.0  24.0  134.0  195.0  134.0       34.0  19.0  150.0   10.0     9.0
+[ 2024-04-02 23:46:28,181 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  74.0  26.0  134.0  87.0  134.0       40.0  36.0  150.0   10.0    11.0
+[ 2024-04-02 23:46:28,194 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  84.0  143.0  135.0  111.0  135.0       37.0  126.0  151.0   11.0    10.0
+[ 2024-04-02 23:46:28,208 ] 21 root - INFO - New data : 
+   Area     X      Y     XM     YM  Perimeter    BX     BY  Width  Height
+0  80.0  57.0  136.0  150.0  136.0       41.0  44.0  151.0   10.0    10.0
+[ 2024-04-02 23:46:28,221 ] 21 root - INFO - New data : 
+   Area     X    Y    XM   YM  Perimeter    BX   BY  Width  Height
+0  85.0  26.0  8.0  26.0  8.0       36.0  21.0  2.0   11.0    11.0
+[ 2024-04-02 23:46:28,234 ] 21 root - INFO - New data : 
+   Area     X    Y    XM   YM  Perimeter   BX   BY  Width  Height
+0  87.0  12.0  8.0  12.0  8.0       39.0  7.0  2.0   12.0    10.0
+[ 2024-04-02 23:46:28,249 ] 21 root - INFO - New data : 
+   Area     X    Y    XM   YM  Perimeter    BX   BY  Width  Height
+0  82.0  40.0  9.0  40.0  9.0       35.0  35.0  4.0   11.0    10.0
+[ 2024-04-02 23:46:28,262 ] 21 root - INFO - New data : 
+   Area     X    Y    XM   YM  Perimeter    BX   BY  Width  Height
+0  77.0  84.0  9.0  84.0  9.0       35.0  79.0  4.0   11.0    10.0
+[ 2024-04-02 23:46:28,276 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX   BY  Width  Height
+0  86.0  53.0  10.0  53.0  10.0       36.0  48.0  5.0   11.0    11.0
+[ 2024-04-02 23:46:28,289 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX   BY  Width  Height
+0  83.0  69.0  10.0  69.0  10.0       35.0  64.0  5.0   11.0    10.0
+[ 2024-04-02 23:46:28,302 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX   BY  Width  Height
+0  84.0  112.0  10.0  112.0  10.0       36.0  107.0  5.0   10.0    11.0
+[ 2024-04-02 23:46:28,315 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX   BY  Width  Height
+0  75.0  98.0  10.0  98.0  10.0       35.0  93.0  6.0   11.0    10.0
+[ 2024-04-02 23:46:28,328 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX   BY  Width  Height
+0  71.0  124.0  11.0  124.0  11.0       34.0  120.0  6.0   11.0     9.0
+[ 2024-04-02 23:46:28,343 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX   BY  Width  Height
+0  67.0  138.0  11.0  138.0  11.0       34.0  133.0  6.0   11.0     9.0
+[ 2024-04-02 23:46:28,356 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter   BX    BY  Width  Height
+0  90.0  10.0  20.0  10.0  20.0       37.0  5.0  15.0   12.0    11.0
+[ 2024-04-02 23:46:28,369 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  79.0  26.0  21.0  26.0  21.0       34.0  21.0  16.0   11.0    10.0
+[ 2024-04-02 23:46:28,382 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  80.0  69.0  22.0  69.0  22.0       35.0  64.0  17.0   10.0    11.0
+[ 2024-04-02 23:46:28,395 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  79.0  111.0  22.0  111.0  22.0       34.0  106.0  17.0   10.0    10.0
+[ 2024-04-02 23:46:28,409 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  80.0  40.0  23.0  40.0  23.0       35.0  35.0  18.0   11.0    10.0
+[ 2024-04-02 23:46:28,422 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  78.0  98.0  23.0  98.0  23.0       34.0  93.0  18.0   10.0    10.0
+[ 2024-04-02 23:46:28,436 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  77.0  141.0  23.0  141.0  23.0       34.0  136.0  18.0   10.0    10.0
+[ 2024-04-02 23:46:28,449 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  81.0  125.0  23.0  125.0  23.0       37.0  120.0  18.0   12.0    10.0
+[ 2024-04-02 23:46:28,462 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  85.0  56.0  24.0  56.0  24.0       36.0  51.0  18.0   11.0    11.0
+[ 2024-04-02 23:46:28,476 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  82.0  85.0  24.0  85.0  24.0       42.0  80.0  19.0   12.0    10.0
+[ 2024-04-02 23:46:28,489 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter   BX    BY  Width  Height
+0  82.0  10.0  34.0  10.0  34.0       36.0  5.0  28.0   11.0    10.0
+[ 2024-04-02 23:46:28,505 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  71.0  98.0  35.0  98.0  35.0       36.0  93.0  30.0   11.0    10.0
+[ 2024-04-02 23:46:28,519 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  70.0  69.0  35.0  69.0  35.0       34.0  64.0  30.0   11.0     9.0
+[ 2024-04-02 23:46:28,535 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  75.0  25.0  35.0  25.0  35.0       36.0  20.0  30.0   12.0     9.0
+[ 2024-04-02 23:46:28,549 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  77.0  83.0  36.0  83.0  36.0       34.0  78.0  30.0   10.0    10.0
+[ 2024-04-02 23:46:28,564 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  84.0  40.0  36.0  40.0  36.0       35.0  35.0  30.0   11.0    10.0
+[ 2024-04-02 23:46:28,578 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  80.0  127.0  36.0  127.0  36.0       34.0  122.0  31.0   10.0    10.0
+[ 2024-04-02 23:46:28,592 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  76.0  140.0  36.0  140.0  36.0       35.0  135.0  31.0   11.0    10.0
+[ 2024-04-02 23:46:28,606 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  79.0  112.0  36.0  112.0  36.0       36.0  107.0  31.0   11.0    10.0
+[ 2024-04-02 23:46:28,621 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  71.0  54.0  36.0  54.0  36.0       34.0  49.0  31.0   11.0    10.0
+[ 2024-04-02 23:46:28,636 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter   BX    BY  Width  Height
+0  88.0  10.0  47.0  10.0  47.0       39.0  5.0  41.0   13.0    10.0
+[ 2024-04-02 23:46:28,650 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  83.0  24.0  48.0  24.0  48.0       36.0  19.0  43.0   12.0    10.0
+[ 2024-04-02 23:46:28,666 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  78.0  40.0  48.0  40.0  48.0       35.0  35.0  43.0   11.0    10.0
+[ 2024-04-02 23:46:28,680 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  82.0  54.0  48.0  54.0  48.0       36.0  49.0  43.0   11.0    10.0
+[ 2024-04-02 23:46:28,693 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  80.0  84.0  48.0  84.0  48.0       40.0  79.0  43.0   12.0    10.0
+[ 2024-04-02 23:46:28,706 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  71.0  98.0  48.0  98.0  48.0       33.0  93.0  43.0   11.0     9.0
+[ 2024-04-02 23:46:28,720 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  78.0  127.0  48.0  127.0  48.0       35.0  122.0  43.0   11.0    10.0
+[ 2024-04-02 23:46:28,734 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  78.0  70.0  48.0  70.0  48.0       35.0  65.0  43.0   11.0    10.0
+[ 2024-04-02 23:46:28,748 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  82.0  113.0  48.0  113.0  48.0       41.0  107.0  44.0   12.0    10.0
+[ 2024-04-02 23:46:28,761 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  72.0  141.0  50.0  141.0  50.0       33.0  137.0  44.0   10.0    10.0
+[ 2024-04-02 23:46:28,776 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter   BX    BY  Width  Height
+0  82.0  10.0  60.0  10.0  60.0       35.0  5.0  55.0   11.0    10.0
+[ 2024-04-02 23:46:28,789 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  82.0  40.0  60.0  40.0  60.0       36.0  34.0  55.0   11.0    10.0
+[ 2024-04-02 23:46:28,802 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  73.0  70.0  60.0  70.0  60.0       36.0  65.0  56.0   12.0     9.0
+[ 2024-04-02 23:46:28,816 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  79.0  24.0  61.0  24.0  61.0       35.0  19.0  56.0   11.0    10.0
+[ 2024-04-02 23:46:28,832 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  77.0  54.0  61.0  54.0  61.0       36.0  49.0  56.0   11.0     9.0
+[ 2024-04-02 23:46:28,845 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  70.0  97.0  61.0  97.0  61.0       35.0  92.0  56.0   12.0     9.0
+[ 2024-04-02 23:46:28,858 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  74.0  84.0  62.0  84.0  62.0       33.0  79.0  57.0   10.0    10.0
+[ 2024-04-02 23:46:28,871 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  76.0  112.0  62.0  112.0  62.0       34.0  108.0  57.0   11.0    10.0
+[ 2024-04-02 23:46:28,885 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  68.0  126.0  62.0  126.0  62.0       33.0  121.0  58.0   11.0     9.0
+[ 2024-04-02 23:46:28,898 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  75.0  140.0  63.0  140.0  63.0       36.0  135.0  58.0   12.0    10.0
+[ 2024-04-02 23:46:28,913 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  82.0  41.0  73.0  41.0  73.0       35.0  36.0  68.0   11.0    10.0
+[ 2024-04-02 23:46:28,926 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  77.0  71.0  74.0  71.0  74.0       36.0  66.0  69.0   12.0    10.0
+[ 2024-04-02 23:46:28,940 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  74.0  55.0  74.0  55.0  74.0       34.0  50.0  69.0   11.0    10.0
+[ 2024-04-02 23:46:28,953 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter   BX    BY  Width  Height
+0  88.0  10.0  74.0  10.0  74.0       37.0  5.0  69.0   12.0    10.0
+[ 2024-04-02 23:46:28,966 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  65.0  84.0  74.0  84.0  74.0       32.0  80.0  70.0   11.0     9.0
+[ 2024-04-02 23:46:28,979 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  73.0  128.0  75.0  128.0  75.0       34.0  123.0  70.0   11.0    10.0
+[ 2024-04-02 23:46:28,992 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  75.0  141.0  75.0  141.0  75.0       35.0  136.0  70.0   11.0    10.0
+[ 2024-04-02 23:46:29,007 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  79.0  24.0  75.0  24.0  75.0       37.0  19.0  70.0   12.0    10.0
+[ 2024-04-02 23:46:29,020 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  74.0  99.0  75.0  99.0  75.0       35.0  94.0  71.0   12.0    10.0
+[ 2024-04-02 23:46:29,034 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  74.0  113.0  75.0  113.0  75.0       33.0  108.0  71.0   11.0    10.0
+[ 2024-04-02 23:46:29,047 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  84.0  55.0  86.0  55.0  86.0       36.0  50.0  81.0   11.0    10.0
+[ 2024-04-02 23:46:29,061 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  83.0  24.0  87.0  24.0  87.0       36.0  19.0  82.0   11.0    10.0
+[ 2024-04-02 23:46:29,075 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  83.0  39.0  87.0  39.0  87.0       38.0  34.0  82.0   13.0    10.0
+[ 2024-04-02 23:46:29,088 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  72.0  84.0  86.0  84.0  86.0       33.0  80.0  82.0   10.0     9.0
+[ 2024-04-02 23:46:29,102 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter    BX    BY  Width  Height
+0  74.0  100.0  87.0  100.0  87.0       33.0  95.0  82.0   10.0     9.0
+[ 2024-04-02 23:46:29,116 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  68.0  70.0  87.0  70.0  87.0       35.0  65.0  82.0   11.0     9.0
+[ 2024-04-02 23:46:29,129 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  71.0  141.0  88.0  141.0  88.0       34.0  136.0  83.0   11.0     9.0
+[ 2024-04-02 23:46:29,143 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  77.0  115.0  88.0  115.0  88.0       34.0  110.0  83.0   11.0    10.0
+[ 2024-04-02 23:46:29,156 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  75.0  128.0  88.0  128.0  88.0       34.0  123.0  83.0   11.0    10.0
+[ 2024-04-02 23:46:29,170 ] 21 root - INFO - New data : 
+   Area    X     Y   XM    YM  Perimeter   BX    BY  Width  Height
+0  85.0  9.0  88.0  9.0  88.0       38.0  4.0  83.0   13.0    10.0
+[ 2024-04-02 23:46:29,183 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  76.0  140.0  99.0  140.0  99.0       34.0  136.0  94.0   10.0    10.0
+[ 2024-04-02 23:46:29,197 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter    BX    BY  Width  Height
+0  76.0  101.0  99.0  101.0  99.0       37.0  96.0  94.0   11.0    10.0
+[ 2024-04-02 23:46:29,210 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  78.0  71.0  99.0  71.0  99.0       35.0  66.0  94.0   11.0    10.0
+[ 2024-04-02 23:46:29,224 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  85.0  25.0  99.0  25.0  99.0       36.0  20.0  94.0   12.0    10.0
+[ 2024-04-02 23:46:29,237 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  79.0  113.0  99.0  113.0  99.0       34.0  109.0  94.0   10.0    10.0
+[ 2024-04-02 23:46:29,250 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  67.0  128.0  99.0  128.0  99.0       33.0  123.0  95.0   11.0     9.0
+[ 2024-04-02 23:46:29,265 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX    BY  Width  Height
+0  76.0  55.0  100.0  55.0  100.0       34.0  50.0  95.0   11.0    10.0
+[ 2024-04-02 23:46:29,278 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX    BY  Width  Height
+0  75.0  85.0  100.0  85.0  100.0       36.0  80.0  95.0   12.0    10.0
+[ 2024-04-02 23:46:29,292 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX    BY  Width  Height
+0  82.0  41.0  100.0  41.0  100.0       35.0  36.0  95.0   11.0    10.0
+[ 2024-04-02 23:46:29,305 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter   BX    BY  Width  Height
+0  86.0  10.0  100.0  10.0  100.0       37.0  4.0  96.0   12.0    10.0
+[ 2024-04-02 23:46:29,319 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  77.0  140.0  111.0  140.0  111.0       34.0  136.0  106.0   10.0    10.0
+[ 2024-04-02 23:46:29,332 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter    BX     BY  Width  Height
+0  78.0  101.0  112.0  101.0  112.0       34.0  96.0  106.0   10.0    10.0
+[ 2024-04-02 23:46:29,346 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  76.0  114.0  112.0  114.0  112.0       34.0  109.0  107.0   11.0    10.0
+[ 2024-04-02 23:46:29,359 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  87.0  24.0  112.0  24.0  112.0       39.0  19.0  107.0   13.0    10.0
+[ 2024-04-02 23:46:29,372 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  76.0  86.0  112.0  86.0  112.0       37.0  81.0  107.0   11.0    10.0
+[ 2024-04-02 23:46:29,386 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  76.0  128.0  112.0  128.0  112.0       34.0  123.0  107.0   11.0    10.0
+[ 2024-04-02 23:46:29,399 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter   BX     BY  Width  Height
+0  84.0  10.0  112.0  10.0  112.0       36.0  5.0  107.0   12.0    10.0
+[ 2024-04-02 23:46:29,413 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  79.0  55.0  113.0  55.0  113.0       38.0  51.0  108.0   12.0    10.0
+[ 2024-04-02 23:46:29,426 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  86.0  40.0  113.0  40.0  113.0       36.0  35.0  108.0   11.0    10.0
+[ 2024-04-02 23:46:29,439 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  71.0  71.0  113.0  71.0  113.0       34.0  66.0  108.0   11.0    10.0
+[ 2024-04-02 23:46:29,454 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  83.0  139.0  124.0  139.0  124.0       36.0  134.0  119.0   11.0    10.0
+[ 2024-04-02 23:46:29,466 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  82.0  24.0  124.0  24.0  124.0       39.0  19.0  119.0   13.0    10.0
+[ 2024-04-02 23:46:29,480 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter    BX     BY  Width  Height
+0  82.0  101.0  125.0  101.0  125.0       35.0  96.0  119.0   10.0    11.0
+[ 2024-04-02 23:46:29,493 ] 21 root - INFO - New data : 
+   Area    X      Y   XM     YM  Perimeter   BX     BY  Width  Height
+0  82.0  9.0  125.0  9.0  125.0       36.0  4.0  120.0   11.0    10.0
+[ 2024-04-02 23:46:29,506 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  75.0  126.0  125.0  126.0  125.0       35.0  121.0  120.0   10.0    10.0
+[ 2024-04-02 23:46:29,520 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  80.0  87.0  125.0  87.0  125.0       35.0  82.0  120.0   11.0    10.0
+[ 2024-04-02 23:46:29,533 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  81.0  71.0  125.0  71.0  125.0       36.0  66.0  120.0   12.0    10.0
+[ 2024-04-02 23:46:29,548 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  85.0  56.0  126.0  56.0  126.0       38.0  51.0  120.0   12.0    10.0
+[ 2024-04-02 23:46:29,561 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  80.0  114.0  126.0  114.0  126.0       34.0  109.0  121.0   10.0    10.0
+[ 2024-04-02 23:46:29,575 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  75.0  40.0  126.0  40.0  126.0       36.0  35.0  121.0   12.0    10.0
+[ 2024-04-02 23:46:29,588 ] 21 root - INFO - New data : 
+   Area      X    Y     XM   YM  Perimeter     BX   BY  Width  Height
+0  80.0  171.0  9.0  171.0  9.0       41.0  166.0  4.0   10.0    12.0
+[ 2024-04-02 23:46:29,601 ] 21 root - INFO - New data : 
+   Area      X    Y     XM   YM  Perimeter     BX   BY  Width  Height
+0  76.0  111.0  9.0  111.0  9.0       41.0  106.0  4.0   10.0    11.0
+[ 2024-04-02 23:46:29,615 ] 21 root - INFO - New data : 
+   Area      X    Y     XM   YM  Perimeter     BX   BY  Width  Height
+0  78.0  192.0  9.0  192.0  9.0       39.0  187.0  5.0   10.0    11.0
+[ 2024-04-02 23:46:29,628 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX   BY  Width  Height
+0  78.0  89.0  10.0  89.0  10.0       38.0  84.0  5.0    9.0    12.0
+[ 2024-04-02 23:46:29,642 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX   BY  Width  Height
+0  67.0  28.0  10.0  28.0  10.0       34.0  24.0  5.0    9.0    10.0
+[ 2024-04-02 23:46:29,655 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX   BY  Width  Height
+0  70.0  67.0  10.0  67.0  10.0       34.0  62.0  6.0   10.0    10.0
+[ 2024-04-02 23:46:29,668 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX   BY  Width  Height
+0  71.0  132.0  11.0  132.0  11.0       36.0  127.0  6.0   10.0    10.0
+[ 2024-04-02 23:46:29,682 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX   BY  Width  Height
+0  83.0  150.0  11.0  150.0  11.0       39.0  144.0  6.0   10.0    10.0
+[ 2024-04-02 23:46:29,695 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX   BY  Width  Height
+0  79.0  49.0  12.0  49.0  12.0       41.0  44.0  6.0   10.0    12.0
+[ 2024-04-02 23:46:29,708 ] 21 root - INFO - New data : 
+   Area    X     Y   XM    YM  Perimeter   BX   BY  Width  Height
+0  73.0  8.0  12.0  8.0  12.0       36.0  3.0  7.0   10.0    10.0
+[ 2024-04-02 23:46:29,721 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  87.0  175.0  27.0  175.0  27.0       39.0  170.0  22.0   10.0    12.0
+[ 2024-04-02 23:46:29,735 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  86.0  193.0  28.0  193.0  28.0       41.0  187.0  23.0   11.0    11.0
+[ 2024-04-02 23:46:29,748 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  80.0  154.0  30.0  154.0  30.0       38.0  149.0  25.0   10.0    11.0
+[ 2024-04-02 23:46:29,762 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter   BX    BY  Width  Height
+0  76.0  10.0  30.0  10.0  30.0       35.0  5.0  25.0   10.0    10.0
+[ 2024-04-02 23:46:29,776 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  76.0  49.0  31.0  49.0  31.0       40.0  45.0  26.0    9.0    12.0
+[ 2024-04-02 23:46:29,790 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  70.0  132.0  30.0  132.0  30.0       35.0  128.0  26.0   10.0    10.0
+[ 2024-04-02 23:46:29,803 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  73.0  92.0  31.0  92.0  31.0       36.0  87.0  26.0   10.0    10.0
+[ 2024-04-02 23:46:29,816 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  66.0  31.0  31.0  31.0  31.0       32.0  26.0  27.0    9.0     9.0
+[ 2024-04-02 23:46:29,830 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  78.0  68.0  32.0  68.0  32.0       35.0  64.0  27.0   10.0    11.0
+[ 2024-04-02 23:46:29,845 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  72.0  112.0  32.0  112.0  32.0       38.0  107.0  27.0   10.0    10.0
+[ 2024-04-02 23:46:29,858 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  80.0  156.0  47.0  156.0  47.0       40.0  151.0  42.0   11.0    10.0
+[ 2024-04-02 23:46:29,872 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  76.0  195.0  48.0  195.0  48.0       43.0  190.0  43.0   10.0    11.0
+[ 2024-04-02 23:46:29,885 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  80.0  176.0  49.0  176.0  49.0       37.0  170.0  44.0   10.0    10.0
+[ 2024-04-02 23:46:29,898 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  76.0  51.0  50.0  51.0  50.0       34.0  46.0  46.0   10.0    10.0
+[ 2024-04-02 23:46:29,912 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  68.0  92.0  51.0  92.0  51.0       34.0  87.0  46.0   10.0    10.0
+[ 2024-04-02 23:46:29,925 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  74.0  32.0  51.0  32.0  51.0       34.0  27.0  46.0   10.0    10.0
+[ 2024-04-02 23:46:29,938 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter   BX    BY  Width  Height
+0  77.0  12.0  51.0  12.0  51.0       36.0  7.0  46.0   10.0    11.0
+[ 2024-04-02 23:46:29,951 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  78.0  72.0  52.0  72.0  52.0       34.0  66.0  47.0   10.0    10.0
+[ 2024-04-02 23:46:29,967 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  76.0  111.0  53.0  111.0  53.0       35.0  106.0  48.0   11.0    10.0
+[ 2024-04-02 23:46:29,980 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  76.0  131.0  54.0  131.0  54.0       40.0  126.0  49.0   10.0    12.0
+[ 2024-04-02 23:46:29,994 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  74.0  179.0  71.0  179.0  71.0       43.0  174.0  66.0   10.0    11.0
+[ 2024-04-02 23:46:30,007 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  70.0  159.0  71.0  159.0  71.0       37.0  154.0  67.0   10.0    10.0
+[ 2024-04-02 23:46:30,021 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  73.0  198.0  72.0  198.0  72.0       37.0  193.0  67.0   10.0    10.0
+[ 2024-04-02 23:46:30,035 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  80.0  115.0  72.0  115.0  72.0       37.0  110.0  67.0   10.0    10.0
+[ 2024-04-02 23:46:30,048 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  82.0  136.0  74.0  136.0  74.0       38.0  131.0  68.0   10.0    11.0
+[ 2024-04-02 23:46:30,063 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  73.0  73.0  73.0  73.0  73.0       35.0  68.0  69.0   10.0    10.0
+[ 2024-04-02 23:46:30,077 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  82.0  95.0  74.0  95.0  74.0       37.0  90.0  69.0   11.0    11.0
+[ 2024-04-02 23:46:30,091 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  72.0  33.0  73.0  33.0  73.0       35.0  28.0  69.0   10.0    11.0
+[ 2024-04-02 23:46:30,106 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  75.0  53.0  75.0  53.0  75.0       36.0  48.0  70.0   10.0    11.0
+[ 2024-04-02 23:46:30,119 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter   BX    BY  Width  Height
+0  66.0  13.0  75.0  13.0  75.0       32.0  8.0  71.0   10.0     9.0
+[ 2024-04-02 23:46:30,134 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  82.0  198.0  92.0  198.0  92.0       39.0  192.0  87.0   11.0    10.0
+[ 2024-04-02 23:46:30,149 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  84.0  181.0  93.0  181.0  93.0       44.0  176.0  88.0   11.0    12.0
+[ 2024-04-02 23:46:30,162 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  75.0  161.0  93.0  161.0  93.0       47.0  155.0  88.0   10.0    11.0
+[ 2024-04-02 23:46:30,176 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  72.0  96.0  93.0  96.0  93.0       38.0  91.0  89.0   10.0    11.0
+[ 2024-04-02 23:46:30,189 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  67.0  117.0  93.0  117.0  93.0       39.0  113.0  89.0    9.0    10.0
+[ 2024-04-02 23:46:30,202 ] 21 root - INFO - New data : 
+   Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  72.0  138.0  94.0  138.0  94.0       34.0  133.0  90.0   10.0    10.0
+[ 2024-04-02 23:46:30,217 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  75.0  34.0  95.0  34.0  95.0       35.0  29.0  90.0   10.0    11.0
+[ 2024-04-02 23:46:30,229 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  70.0  56.0  95.0  56.0  95.0       33.0  51.0  90.0    9.0    10.0
+[ 2024-04-02 23:46:30,243 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  63.0  74.0  95.0  74.0  95.0       30.0  70.0  91.0    9.0     9.0
+[ 2024-04-02 23:46:30,257 ] 21 root - INFO - New data : 
+   Area     X     Y    XM    YM  Perimeter    BX    BY  Width  Height
+0  70.0  15.0  96.0  15.0  96.0       34.0  10.0  91.0   10.0    10.0
+[ 2024-04-02 23:46:30,271 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  82.0  198.0  117.0  198.0  117.0       46.0  193.0  112.0   11.0    11.0
+[ 2024-04-02 23:46:30,284 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  79.0  119.0  117.0  119.0  117.0       36.0  113.0  112.0   10.0    10.0
+[ 2024-04-02 23:46:30,297 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  79.0  57.0  117.0  57.0  117.0       41.0  52.0  112.0   10.0    11.0
+[ 2024-04-02 23:46:30,311 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  79.0  139.0  117.0  139.0  117.0       39.0  134.0  112.0   10.0    11.0
+[ 2024-04-02 23:46:30,324 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  79.0  15.0  118.0  15.0  118.0       36.0  10.0  113.0   10.0    11.0
+[ 2024-04-02 23:46:30,337 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  65.0  75.0  118.0  75.0  118.0       32.0  70.0  114.0   10.0     9.0
+[ 2024-04-02 23:46:30,352 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  74.0  162.0  118.0  162.0  118.0       40.0  157.0  114.0   10.0    10.0
+[ 2024-04-02 23:46:30,365 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  69.0  98.0  119.0  98.0  119.0       35.0  93.0  114.0    9.0    11.0
+[ 2024-04-02 23:46:30,379 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  76.0  179.0  120.0  179.0  120.0       42.0  174.0  115.0   10.0    10.0
+[ 2024-04-02 23:46:30,392 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  70.0  37.0  121.0  37.0  121.0       34.0  32.0  117.0   10.0    10.0
+[ 2024-04-02 23:46:30,405 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  76.0  118.0  137.0  118.0  137.0       40.0  113.0  132.0   10.0    11.0
+[ 2024-04-02 23:46:30,418 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  62.0  80.0  137.0  80.0  137.0       34.0  75.0  132.0    9.0    10.0
+[ 2024-04-02 23:46:30,432 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  69.0  141.0  138.0  141.0  138.0       39.0  137.0  133.0    9.0    12.0
+[ 2024-04-02 23:46:30,446 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  72.0  162.0  138.0  162.0  138.0       34.0  157.0  133.0   10.0    10.0
+[ 2024-04-02 23:46:30,461 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  66.0  15.0  138.0  15.0  138.0       34.0  10.0  134.0    9.0    10.0
+[ 2024-04-02 23:46:30,474 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  67.0  58.0  138.0  58.0  138.0       36.0  54.0  134.0   10.0    10.0
+[ 2024-04-02 23:46:30,488 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter    BX     BY  Width  Height
+0  75.0  100.0  139.0  100.0  139.0       37.0  95.0  134.0   10.0    11.0
+[ 2024-04-02 23:46:30,501 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  87.0  200.0  140.0  200.0  140.0       42.0  194.0  135.0   11.0    11.0
+[ 2024-04-02 23:46:30,516 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  83.0  178.0  140.0  178.0  140.0       40.0  173.0  135.0   11.0    11.0
+[ 2024-04-02 23:46:30,529 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  68.0  36.0  140.0  36.0  140.0       36.0  32.0  136.0   10.0    10.0
+[ 2024-04-02 23:46:30,543 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  74.0  17.0  156.0  17.0  156.0       37.0  12.0  152.0   10.0    10.0
+[ 2024-04-02 23:46:30,555 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  82.0  140.0  157.0  140.0  157.0       41.0  135.0  152.0   10.0    12.0
+[ 2024-04-02 23:46:30,570 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  73.0  34.0  158.0  34.0  158.0       34.0  30.0  153.0   10.0    10.0
+[ 2024-04-02 23:46:30,582 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  75.0  182.0  159.0  182.0  159.0       44.0  177.0  154.0   10.0    11.0
+[ 2024-04-02 23:46:30,596 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  73.0  198.0  159.0  198.0  159.0       40.0  192.0  154.0   10.0    10.0
+[ 2024-04-02 23:46:30,609 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  68.0  81.0  159.0  81.0  159.0       41.0  76.0  154.0    9.0    10.0
+[ 2024-04-02 23:46:30,622 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  79.0  164.0  160.0  164.0  160.0       40.0  159.0  155.0   10.0    10.0
+[ 2024-04-02 23:46:30,636 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  66.0  58.0  160.0  58.0  160.0       34.0  54.0  155.0    9.0    11.0
+[ 2024-04-02 23:46:30,649 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  69.0  120.0  160.0  120.0  160.0       38.0  115.0  155.0   10.0    11.0
+[ 2024-04-02 23:46:30,663 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter    BX     BY  Width  Height
+0  77.0  100.0  160.0  100.0  160.0       41.0  95.0  155.0   10.0    11.0
+[ 2024-04-02 23:46:30,678 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  70.0  123.0  174.0  123.0  174.0       39.0  118.0  169.0   10.0    10.0
+[ 2024-04-02 23:46:30,693 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  69.0  33.0  175.0  33.0  175.0       36.0  29.0  170.0   10.0    10.0
+[ 2024-04-02 23:46:30,708 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  76.0  18.0  175.0  18.0  175.0       40.0  12.0  170.0   10.0    11.0
+[ 2024-04-02 23:46:30,724 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  78.0  164.0  177.0  164.0  177.0       40.0  160.0  172.0   10.0    10.0
+[ 2024-04-02 23:46:30,737 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  75.0  57.0  177.0  57.0  177.0       35.0  52.0  172.0   10.0    10.0
+[ 2024-04-02 23:46:30,752 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  69.0  143.0  177.0  143.0  177.0       34.0  138.0  173.0   10.0     9.0
+[ 2024-04-02 23:46:30,767 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  86.0  198.0  178.0  198.0  178.0       40.0  193.0  173.0   11.0    11.0
+[ 2024-04-02 23:46:30,780 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  74.0  181.0  178.0  181.0  178.0       40.0  176.0  173.0   10.0    12.0
+[ 2024-04-02 23:46:30,795 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter    BX     BY  Width  Height
+0  68.0  100.0  178.0  100.0  178.0       39.0  96.0  173.0    9.0    10.0
+[ 2024-04-02 23:46:30,810 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  68.0  82.0  179.0  82.0  179.0       39.0  78.0  174.0    9.0    11.0
+[ 2024-04-02 23:46:30,825 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  72.0  17.0  194.0  17.0  194.0       43.0  13.0  189.0   10.0    10.0
+[ 2024-04-02 23:46:30,842 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  75.0  162.0  195.0  162.0  195.0       40.0  158.0  190.0   10.0    12.0
+[ 2024-04-02 23:46:30,855 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  76.0  144.0  195.0  144.0  195.0       41.0  138.0  190.0   10.0    10.0
+[ 2024-04-02 23:46:30,869 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  64.0  122.0  195.0  122.0  195.0       36.0  118.0  190.0    9.0    10.0
+[ 2024-04-02 23:46:30,882 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  68.0  56.0  195.0  56.0  195.0       37.0  51.0  190.0    9.0    10.0
+[ 2024-04-02 23:46:30,896 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  71.0  35.0  196.0  35.0  196.0       43.0  30.0  191.0   10.0    10.0
+[ 2024-04-02 23:46:30,909 ] 21 root - INFO - New data : 
+   Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  71.0  79.0  196.0  79.0  196.0       38.0  75.0  191.0   10.0    10.0
+[ 2024-04-02 23:46:30,923 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter    BX     BY  Width  Height
+0  75.0  100.0  197.0  100.0  197.0       40.0  95.0  192.0   10.0    11.0
+[ 2024-04-02 23:46:30,936 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  80.0  199.0  197.0  199.0  197.0       38.0  194.0  192.0   10.0    10.0
+[ 2024-04-02 23:46:30,949 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  78.0  180.0  197.0  180.0  197.0       41.0  175.0  192.0   10.0    12.0
+[ 2024-04-02 23:46:30,968 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:46:30] "POST /showingResults HTTP/1.1" 200 -
+[ 2024-04-02 23:46:30,976 ] 96 werkzeug - INFO - 127.0.0.1 - - [02/Apr/2024 23:46:30] "[36mGET /static/css/Results.css HTTP/1.1[0m" 304 -

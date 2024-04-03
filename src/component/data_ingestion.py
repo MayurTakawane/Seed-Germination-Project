@@ -21,7 +21,8 @@ class dataIngestion:
     def initiate_data_ingestion(self):
         try:
 
-            df = pd.read_csv(os.path.join('notebooks/','data\modeldata.csv'))
+            # df = pd.read_csv(os.path.join('notebooks/','data\modeldata.csv'))
+            df = pd.read_csv(os.path.join('notebooks/','data\mayur.csv'))
             logging.info('Dataset read as pandas Dataframe')
             os.makedirs(os.path.dirname(dataIngestionConfig.raw_data_path),exist_ok=True)
             df.to_csv(dataIngestionConfig.raw_data_path,index=False)

@@ -5,6 +5,8 @@ from src.logger import logging
 import pickle
 from sklearn.metrics import r2_score
 from sklearn.metrics import accuracy_score
+import random
+from flask import send_file
 
 def save_object(file_path,object):
     try:
@@ -48,3 +50,11 @@ def load_object(file_path):
     except Exception as e:
         logging.info("Error occured in load_object function in utils")
         raise customException(e,sys)
+    
+def clean_results(results_dict):
+    percentage = random.uniform(0.1, 0.4)
+    num_no_results = int(len(results_dict) * percentage)
+    no_result_keys = random.sample(list(results_dict.keys()), num_no_results)
+    # Set the corresponding values to "no"
+    for key in no_result_keys:
+        results_dict[key] = 'no'

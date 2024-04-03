@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>showing Results</title>
+    <link rel="stylesheet" href="/static/css/Results.css">
+</head>
+<body>
+    <body>
+        <h1>Seed Growth Prediction</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Seed</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for seed, result in results.items() %}
+                <tr>
+                    <td>{{ seed }}</td>
+                    <td>{{ result }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <img src="data:image/jpeg;base64,{{ encoded_image }}" alt="Outline Image">
+        <img src="{{ plot_path }}" alt="Seed Results Plot">
+        <img src="{{ pie_chart_path }}" alt="Seed Results Pie Chart">
+    </body>
+</body>
+</html>

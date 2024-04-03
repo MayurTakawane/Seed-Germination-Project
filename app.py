@@ -4,11 +4,15 @@ from flask import Flask,render_template,request
 import requests
 import cv2
 import numpy as np
+import pandas as pd
 import imutils
 from PIL import Image
 import os
 import base64
 from io import BytesIO
+from src.pipeline.prediction_pipeline import predictPipeline,customData
+from src.utils import clean_results
+import matplotlib.pyplot as plt
 
 
 # Define the folder to store captured images
@@ -104,7 +108,108 @@ def run_macros():
     imagej_path = "D:\Computer_science\BE_PROJECT\Seed_Project\imageJ software\ImageJ\ImageJ.exe"
 
     subprocess.run([imagej_path])
-    return render_template('dataCollected.html')
+    return render_template('viewResult.html')
+
+@app.route("/showingResults",methods = ["POST"])
+def show_results():
+
+    ## image 
+
+    with open('get_data/imageData/outline.jpg', 'rb') as f:
+        image_data = f.read()
+
+    encoded_image = base64.b64encode(image_data).decode('utf-8')
+
+    ## data of seeds
+    data = pd.read_csv('get_data/excelData/Results.csv')
+    data = data.drop(columns=' ')
+    # data = pd.read_csv('notebooks/data/mayur.csv')
+   
+    length = len(data)
+    area = []
+    x = []
+    y = []
+    xm = []
+    ym = []
+    perim = []
+    bx = []
+    by = []
+    width = []
+    height = []
+    i = 0
+    while(len(data) > 0):
+        area.append(data['Area'][i])
+        x.append(data['X'][i])
+        y.append(data['Y'][i])
+        xm.append(data['XM'][i])
+        ym.append(data['YM'][i])
+        perim.append(data['Perim.'][i])
+        # perim.append(data['Perimeter'][i])
+        bx.append(data['BX'][i])
+        by.append(data['BY'][i])
+        width.append(data['Width'][i])
+        height.append(data['Height'][i])
+        data.drop([i],axis=0)
+        i = i + 1
+        if i == length:
+            break
+
+        
+    results_dict = {}  
+    i = 0
+    while(i < length):
+        data=customData(    
+            Area = float(np.round(area[i])),
+            X = float(np.round(x[i])),
+            Y = float(np.round(y[i])),
+            XM = float(np.round(xm[i])),
+            YM = float(np.round(ym[i])),
+            Perimeter = float(np.round(perim[i])),
+            BX = float(np.round(bx[i])),
+            BY = float(np.round(by[i])),
+            Width = float(np.round(width[i])),
+            Height = float(np.round(height[i]))
+        )
+        dataframe = data.convert_data_into_dataframe()
+        pred = predictPipeline()
+        result = pred.prediction(dataframe)
+
+        results_dict[f"Seed {i + 1}"] = result[0]
+        i = i + 1
+
+
+    clean_results(results_dict)
+
+    ### plot 
+    # Count occurrences of "yes" and "no" results
+    yes_count = sum(1 for result in results_dict.values() if result == "yes")
+    no_count = sum(1 for result in results_dict.values() if result == "no")
+
+    # Plotting bar
+    labels = ['Yes', 'No']
+    counts = [yes_count, no_count]
+
+    plt.figure(figsize=(8, 6))
+    plt.bar(labels, counts, color=['green', 'red'])
+    plt.xlabel('Seed Result')
+    plt.ylabel('Count')
+    plt.title('Distribution of Seed Results')
+    plt.savefig('static/seed_results_plot.png')  # Save the plot as an image file
+
+    # Pass the path to the saved plot to the HTML template
+    plot_path = 'static/seed_results_plot.png'
+
+    # plotting pie
+    plt.figure(figsize=(8, 6))
+    plt.pie(counts, labels=labels, autopct='%1.1f%%', startangle=140)
+    plt.title('Distribution of Seed Results')
+    plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle
+    plt.savefig('static/seed_results_pie_chart.png')  # Save the plot as an image file
+
+    # Pass the path to the saved pie chart to the HTML template
+    pie_chart_path = 'static/seed_results_pie_chart.png'
+
+    return render_template('Results.html',results=results_dict,encoded_image=encoded_image,plot_path=plot_path,pie_chart_path=pie_chart_path)
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1',port=5000)
