@@ -1,0 +1,10 @@
+[ 2024-04-03 12:54:16,398 ] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2024-04-03 12:54:16,398 ] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-04-03 12:54:22,350 ] 96 werkzeug - INFO - 127.0.0.1 - - [03/Apr/2024 12:54:22] "GET / HTTP/1.1" 200 -
+[ 2024-04-03 12:54:22,484 ] 96 werkzeug - INFO - 127.0.0.1 - - [03/Apr/2024 12:54:22] "[36mGET /static/css/corn%20diplay.png HTTP/1.1[0m" 304 -
+[ 2024-04-03 12:54:22,486 ] 96 werkzeug - INFO - 127.0.0.1 - - [03/Apr/2024 12:54:22] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+[ 2024-04-03 12:54:22,528 ] 96 werkzeug - INFO - 127.0.0.1 - - [03/Apr/2024 12:54:22] "[35m[1mGET /static/css/corn%20video.mp4 HTTP/1.1[0m" 206 -
+[ 2024-04-03 12:56:53,525 ] 96 werkzeug - INFO - 127.0.0.1 - - [03/Apr/2024 12:56:53] "POST /openwebcam HTTP/1.1" 200 -
+[ 2024-04-03 12:56:53,543 ] 96 werkzeug - INFO - 127.0.0.1 - - [03/Apr/2024 12:56:53] "[36mGET /static/css/displayImage.css HTTP/1.1[0m" 304 -
+[ 2024-04-03 12:56:53,546 ] 96 werkzeug - INFO - 127.0.0.1 - - [03/Apr/2024 12:56:53] "[36mGET /static/css/corn%202.jpg HTTP/1.1[0m" 304 -

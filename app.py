@@ -43,7 +43,7 @@ def homePage():
 def predict_datapoint():
 
     # Replace the below URL with your own. Make sure to add "/shot.jpg" at last.
-    # url = "http://192.168.1.2:8080/shot.jpg"
+    # url = "http://172.20.10.7:8080/shot.jpg"
 
     # while True:
     #     # Fetching data from the URL
@@ -58,7 +58,7 @@ def predict_datapoint():
     #     # Press 's' to capture a snapshot
     #     key = cv2.waitKey(1)
     #     if key == ord('s'):
-    #         cv2.imwrite("seedTestImage1.Jpeg", img)
+    #         cv2.imwrite("seedTestImage.Jpeg", img)
     #         # Convert the captured image to RGB format (Pillow uses RGB)
     #         captured_image = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
     #         print("Snapshot taken!")
