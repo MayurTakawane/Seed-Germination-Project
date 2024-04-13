@@ -43,7 +43,7 @@ def homePage():
 def predict_datapoint():
 
     # Replace the below URL with your own. Make sure to add "/shot.jpg" at last.
-    # url = "http://172.20.10.7:8080/shot.jpg"
+    # url = "http://172.20.10.3:8080/shot.jpg"
 
     # while True:
     #     # Fetching data from the URL

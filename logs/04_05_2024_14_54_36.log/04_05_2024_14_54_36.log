@@ -1,0 +1,47 @@
+[ 2024-04-05 14:54:37,958 ] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2024-04-05 14:54:37,958 ] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-04-05 14:54:46,078 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Apr/2024 14:54:46] "GET / HTTP/1.1" 200 -
+[ 2024-04-05 14:54:46,250 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Apr/2024 14:54:46] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+[ 2024-04-05 14:54:46,260 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Apr/2024 14:54:46] "[36mGET /static/css/corn%20diplay.png HTTP/1.1[0m" 304 -
+[ 2024-04-05 14:54:46,322 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Apr/2024 14:54:46] "[35m[1mGET /static/css/corn%20video.mp4 HTTP/1.1[0m" 206 -
+[ 2024-04-05 14:55:16,474 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Apr/2024 14:55:16] "POST /openwebcam HTTP/1.1" 200 -
+[ 2024-04-05 14:55:16,503 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Apr/2024 14:55:16] "[36mGET /static/css/displayImage.css HTTP/1.1[0m" 304 -
+[ 2024-04-05 14:55:16,506 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Apr/2024 14:55:16] "[36mGET /static/css/corn%202.jpg HTTP/1.1[0m" 304 -
+[ 2024-04-05 14:55:22,053 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Apr/2024 14:55:22] "POST /RunningMacros HTTP/1.1" 200 -
+[ 2024-04-05 14:55:22,069 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Apr/2024 14:55:22] "[36mGET /static/css/ViewResults.css HTTP/1.1[0m" 304 -
+[ 2024-04-05 14:55:22,072 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Apr/2024 14:55:22] "[36mGET /static/css/corn%201.jpg HTTP/1.1[0m" 304 -
+[ 2024-04-05 14:55:23,712 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  214.0  177.0  30.0  177.0  30.0       57.0  169.0  22.0   16.0    18.0
+[ 2024-04-05 14:55:24,079 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  211.0  158.0  32.0  158.0  32.0       57.0  150.0  24.0   16.0    18.0
+[ 2024-04-05 14:55:24,097 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  201.0  133.0  36.0  133.0  36.0       56.0  125.0  28.0   16.0    17.0
+[ 2024-04-05 14:55:24,116 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  228.0  185.0  60.0  185.0  60.0       58.0  176.0  52.0   17.0    18.0
+[ 2024-04-05 14:55:24,134 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  229.0  161.0  63.0  161.0  63.0       60.0  153.0  54.0   17.0    18.0
+[ 2024-04-05 14:55:24,152 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  197.0  139.0  67.0  139.0  67.0       55.0  131.0  59.0   16.0    18.0
+[ 2024-04-05 14:55:24,169 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  205.0  162.0  92.0  162.0  92.0       54.0  153.0  84.0   17.0    16.0
+[ 2024-04-05 14:55:24,191 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  197.0  139.0  95.0  139.0  95.0       53.0  131.0  87.0   16.0    16.0
+[ 2024-04-05 14:55:24,211 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  202.0  187.0  96.0  187.0  96.0       53.0  179.0  88.0   17.0    15.0
+[ 2024-04-05 14:55:24,230 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  217.0  140.0  125.0  140.0  125.0       58.0  132.0  116.0   16.0    18.0
+[ 2024-04-05 14:55:24,914 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Apr/2024 14:55:24] "POST /showingResults HTTP/1.1" 200 -
+[ 2024-04-05 14:55:24,931 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Apr/2024 14:55:24] "[36mGET /static/css/Results.css HTTP/1.1[0m" 304 -
+[ 2024-04-05 14:55:24,941 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Apr/2024 14:55:24] "GET /static/seed_results_plot.png HTTP/1.1" 200 -
+[ 2024-04-05 14:55:24,942 ] 96 werkzeug - INFO - 127.0.0.1 - - [05/Apr/2024 14:55:24] "GET /static/seed_results_pie_chart.png HTTP/1.1" 200 -

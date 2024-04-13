@@ -1,0 +1,81 @@
+[ 2024-04-13 14:53:39,705 ] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2024-04-13 14:53:39,705 ] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-04-13 14:53:54,321 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Apr/2024 14:53:54] "GET / HTTP/1.1" 200 -
+[ 2024-04-13 14:53:54,503 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Apr/2024 14:53:54] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+[ 2024-04-13 14:53:54,521 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Apr/2024 14:53:54] "[35m[1mGET /static/css/corn%20video.mp4 HTTP/1.1[0m" 206 -
+[ 2024-04-13 14:53:54,528 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Apr/2024 14:53:54] "[36mGET /static/css/corn%20diplay.png HTTP/1.1[0m" 304 -
+[ 2024-04-13 14:53:54,864 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Apr/2024 14:53:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2024-04-13 14:54:11,356 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Apr/2024 14:54:11] "POST /openwebcam HTTP/1.1" 200 -
+[ 2024-04-13 14:54:11,442 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Apr/2024 14:54:11] "[36mGET /static/css/displayImage.css HTTP/1.1[0m" 304 -
+[ 2024-04-13 14:54:11,446 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Apr/2024 14:54:11] "[36mGET /static/css/corn%202.jpg HTTP/1.1[0m" 304 -
+[ 2024-04-13 14:54:16,953 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Apr/2024 14:54:16] "POST /RunningMacros HTTP/1.1" 200 -
+[ 2024-04-13 14:54:16,999 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Apr/2024 14:54:16] "[36mGET /static/css/ViewResults.css HTTP/1.1[0m" 304 -
+[ 2024-04-13 14:54:17,007 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Apr/2024 14:54:17] "[36mGET /static/css/corn%201.jpg HTTP/1.1[0m" 304 -
+[ 2024-04-13 14:54:21,140 ] 21 root - INFO - New data : 
+     Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  1021.0  289.0  72.0  289.0  72.0      154.0  270.0  56.0   41.0    33.0
+[ 2024-04-13 14:54:21,418 ] 21 root - INFO - New data : 
+     Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  1511.0  184.0  87.0  184.0  87.0      175.0  161.0  66.0   45.0    44.0
+[ 2024-04-13 14:54:21,433 ] 21 root - INFO - New data : 
+     Area     X      Y    XM     YM  Perimeter    BX    BY  Width  Height
+0  1549.0  68.0  107.0  68.0  107.0      165.0  47.0  85.0   44.0    45.0
+[ 2024-04-13 14:54:21,448 ] 21 root - INFO - New data : 
+     Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  1639.0  311.0  180.0  311.0  180.0      172.0  288.0  158.0   49.0    46.0
+[ 2024-04-13 14:54:21,462 ] 21 root - INFO - New data : 
+     Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  1704.0  175.0  193.0  175.0  193.0      160.0  153.0  169.0   48.0    47.0
+[ 2024-04-13 14:54:21,477 ] 21 root - INFO - New data : 
+    Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  633.0  71.0  207.0  71.0  207.0      123.0  57.0  192.0   31.0    29.0
+[ 2024-04-13 14:54:21,493 ] 21 root - INFO - New data : 
+     Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  1035.0  307.0  299.0  307.0  299.0      127.0  288.0  281.0   40.0    37.0
+[ 2024-04-13 14:54:21,509 ] 21 root - INFO - New data : 
+     Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  1075.0  192.0  311.0  192.0  311.0      135.0  173.0  291.0   37.0    40.0
+[ 2024-04-13 14:54:21,522 ] 21 root - INFO - New data : 
+     Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  1648.0  81.0  316.0  81.0  316.0      162.0  59.0  292.0   49.0    47.0
+[ 2024-04-13 14:54:21,537 ] 21 root - INFO - New data : 
+     Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  1568.0  193.0  420.0  193.0  420.0      152.0  172.0  397.0   46.0    46.0
+[ 2024-04-13 14:54:21,552 ] 21 root - INFO - New data : 
+     Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  1526.0  77.0  420.0  77.0  420.0      154.0  55.0  397.0   46.0    46.0
+[ 2024-04-13 14:54:21,568 ] 21 root - INFO - New data : 
+     Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  1618.0  319.0  421.0  319.0  421.0      155.0  296.0  397.0   46.0    47.0
+[ 2024-04-13 14:54:21,582 ] 21 root - INFO - New data : 
+     Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  1536.0  300.0  519.0  300.0  519.0      158.0  279.0  497.0   47.0    45.0
+[ 2024-04-13 14:54:21,599 ] 21 root - INFO - New data : 
+     Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  1561.0  206.0  521.0  206.0  521.0      160.0  184.0  499.0   49.0    45.0
+[ 2024-04-13 14:54:21,616 ] 21 root - INFO - New data : 
+     Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  1495.0  84.0  533.0  84.0  533.0      152.0  61.0  512.0   50.0    42.0
+[ 2024-04-13 14:54:21,629 ] 21 root - INFO - New data : 
+     Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  1679.0  306.0  604.0  306.0  604.0      157.0  283.0  581.0   45.0    48.0
+[ 2024-04-13 14:54:21,643 ] 21 root - INFO - New data : 
+     Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  1575.0  210.0  606.0  210.0  606.0      162.0  188.0  584.0   47.0    46.0
+[ 2024-04-13 14:54:21,657 ] 21 root - INFO - New data : 
+     Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  1682.0  97.0  615.0  97.0  615.0      159.0  74.0  591.0   50.0    47.0
+[ 2024-04-13 14:54:21,672 ] 21 root - INFO - New data : 
+     Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  1454.0  308.0  702.0  308.0  702.0      147.0  288.0  679.0   42.0    46.0
+[ 2024-04-13 14:54:21,686 ] 21 root - INFO - New data : 
+     Area     X      Y    XM     YM  Perimeter    BX     BY  Width  Height
+0  1524.0  86.0  719.0  86.0  719.0      154.0  64.0  696.0   46.0    45.0
+[ 2024-04-13 14:54:21,702 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  886.0  194.0  718.0  194.0  718.0      129.0  178.0  701.0   35.0    33.0
+[ 2024-04-13 14:54:22,259 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Apr/2024 14:54:22] "POST /showingResults HTTP/1.1" 200 -
+[ 2024-04-13 14:54:22,308 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Apr/2024 14:54:22] "[36mGET /static/css/Results.css HTTP/1.1[0m" 304 -
+[ 2024-04-13 14:54:22,313 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Apr/2024 14:54:22] "GET /static/seed_results_plot.png HTTP/1.1" 200 -
+[ 2024-04-13 14:54:22,317 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Apr/2024 14:54:22] "GET /static/seed_results_pie_chart.png HTTP/1.1" 200 -
