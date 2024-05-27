@@ -15,6 +15,12 @@ from src.utils import clean_results
 import matplotlib.pyplot as plt
 
 
+# Resize the image resolution
+def resize_image(image_path, width, height):
+    image = Image.open(image_path)
+    resized_image = image.resize((width, height), Image.LANCZOS)
+    resized_image.save(image_path)
+
 # Define the folder to store captured images
 image_folder = "D:/Computer_science/BE_PROJECT/Seed_Project/"
 
@@ -43,62 +49,71 @@ def homePage():
 def predict_datapoint():
 
     # Replace the below URL with your own. Make sure to add "/shot.jpg" at last.
-    # url = "http://172.20.10.3:8080/shot.jpg"
+    url = "http://172.20.10.3:8080/shot.jpg"
 
-    # while True:
-    #     # Fetching data from the URL
-    #     img_resp = requests.get(url)
-    #     img_arr = np.array(bytearray(img_resp.content), dtype=np.uint8)
-    #     img = cv2.imdecode(img_arr, -1)
-    #     img = imutils.resize(img, width=1000, height=1800)
+    while True:
+        # Fetching data from the URL
+        img_resp = requests.get(url)
+        img_arr = np.array(bytearray(img_resp.content), dtype=np.uint8)
+        img = cv2.imdecode(img_arr, -1)
+        img = imutils.resize(img, width=1000, height=1800)
 
-    #     # Display the image
-    #     cv2.imshow("Android_cam", img)
+        # Display the image
+        cv2.imshow("Android_cam", img)
 
-    #     # Press 's' to capture a snapshot
-    #     key = cv2.waitKey(1)
-    #     if key == ord('s'):
-    #         cv2.imwrite("seedTestImage.Jpeg", img)
-    #         # Convert the captured image to RGB format (Pillow uses RGB)
-    #         captured_image = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
-    #         print("Snapshot taken!")
+        # Press 's' to capture a snapshot
+        # key = cv2.waitKey(1)
+        # if key == ord('s'):
+        #     cv2.imwrite("seedTestImage.Jpeg", img)
+        #     # Convert the captured image to RGB format (Pillow uses RGB)
+        #     captured_image = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
+        #     print("Snapshot taken!")
 
-    #     # Press 'Esc' key to exit
-    #     elif key == 27:
-    #         break
+        key = cv2.waitKey(1)
+        if key == ord('s'):
+            img_path = os.path.join(image_folder, "seedTestImage.Jpeg")
+            cv2.imwrite(img_path, img)
+            # Resize the image immediately after saving
+            resize_image(img_path, 1600, 1200) # image resizing
+            captured_image = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
+            print("Snapshot taken!")
 
-    # # Release the OpenCV window
-    # cv2.destroyAllWindows()
+        # Press 'Esc' key to exit
+        elif key == 27:
+            break
+
+    # Release the OpenCV window
+    cv2.destroyAllWindows()
 
     # BELOW CODE TO OPEN WEBCAM OF LAPTOP
-    cam = cv2.VideoCapture(1)
-    while True:
-        ret,frame = cam.read()
+    # cam = cv2.VideoCapture(1)
+    # while True:
+    #     ret,frame = cam.read()
 
-        if not ret:
-            print('failed to grab frame')
-            break
+    #     if not ret:
+    #         print('failed to grab frame')
+    #         break
 
-        cv2.imshow('test',frame)
+    #     cv2.imshow('test',frame)
 
-        k = cv2.waitKey(1)
+    #     k = cv2.waitKey(1)
 
-        if k %256 == 27:
-            print('Escaped this, closing the app')
-            break
-        elif k%256 == 32:
-            # Convert the captured image to RGB format (Pillow uses RGB)
-            captured_image = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
+    #     if k %256 == 27:
+    #         print('Escaped this, closing the app')
+    #         break
+    #     elif k%256 == 32:
+    #         # Convert the captured image to RGB format (Pillow uses RGB)
+    #         captured_image = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
             
-            # Save the captured image to the specified folder
-            img_name = os.path.join(image_folder, f"seedTestImage1.png")
-            captured_image.save(img_name)
-            img_name = os.path.join(image_folder, f"seedTestImage1.png")
-            captured_image.save(img_name)
-            print('Screenshot taken')
-    cam.release()
+    #         # Save the captured image to the specified folder
+    #         img_name = os.path.join(image_folder, f"seedTestImage1.png")
+    #         captured_image.save(img_name)
+    #         img_name = os.path.join(image_folder, f"seedTestImage1.png")
+    #         captured_image.save(img_name)
+    #         print('Screenshot taken')
+    # cam.release()
 
-    cv2.destroyAllWindows()
+    # cv2.destroyAllWindows()
     return render_template('displayImage.html',captured_image=captured_image)
 
 @app.route("/RunningMacros",methods = ["POST"])
@@ -178,7 +193,6 @@ def show_results():
         i = i + 1
 
 
-    clean_results(results_dict)
 
     ### plot 
     # Count occurrences of "yes" and "no" results

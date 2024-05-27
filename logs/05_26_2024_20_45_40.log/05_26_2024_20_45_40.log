@@ -1,0 +1,66 @@
+[ 2024-05-26 20:45:41,369 ] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2024-05-26 20:45:41,370 ] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-05-26 20:45:48,062 ] 96 werkzeug - INFO - 127.0.0.1 - - [26/May/2024 20:45:48] "GET / HTTP/1.1" 200 -
+[ 2024-05-26 20:45:48,166 ] 96 werkzeug - INFO - 127.0.0.1 - - [26/May/2024 20:45:48] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+[ 2024-05-26 20:45:48,191 ] 96 werkzeug - INFO - 127.0.0.1 - - [26/May/2024 20:45:48] "[36mGET /static/css/corn%20diplay.png HTTP/1.1[0m" 304 -
+[ 2024-05-26 20:45:48,196 ] 96 werkzeug - INFO - 127.0.0.1 - - [26/May/2024 20:45:48] "[35m[1mGET /static/css/corn%20video.mp4 HTTP/1.1[0m" 206 -
+[ 2024-05-26 20:45:48,199 ] 96 werkzeug - INFO - 127.0.0.1 - - [26/May/2024 20:45:48] "[35m[1mGET /static/css/corn%20video.mp4 HTTP/1.1[0m" 206 -
+[ 2024-05-26 20:46:01,589 ] 96 werkzeug - INFO - 127.0.0.1 - - [26/May/2024 20:46:01] "POST /openwebcam HTTP/1.1" 200 -
+[ 2024-05-26 20:46:01,652 ] 96 werkzeug - INFO - 127.0.0.1 - - [26/May/2024 20:46:01] "[36mGET /static/css/displayImage.css HTTP/1.1[0m" 304 -
+[ 2024-05-26 20:46:01,661 ] 96 werkzeug - INFO - 127.0.0.1 - - [26/May/2024 20:46:01] "[36mGET /static/css/corn%202.jpg HTTP/1.1[0m" 304 -
+[ 2024-05-26 20:46:06,734 ] 96 werkzeug - INFO - 127.0.0.1 - - [26/May/2024 20:46:06] "POST /RunningMacros HTTP/1.1" 200 -
+[ 2024-05-26 20:46:06,780 ] 96 werkzeug - INFO - 127.0.0.1 - - [26/May/2024 20:46:06] "[36mGET /static/css/ViewResults.css HTTP/1.1[0m" 304 -
+[ 2024-05-26 20:46:06,789 ] 96 werkzeug - INFO - 127.0.0.1 - - [26/May/2024 20:46:06] "[36mGET /static/css/corn%201.jpg HTTP/1.1[0m" 304 -
+[ 2024-05-26 20:46:07,848 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  123.0  250.0  55.0  250.0  55.0       44.0  245.0  47.0   10.0    16.0
+[ 2024-05-26 20:46:07,996 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  152.0  293.0  68.0  293.0  68.0       47.0  287.0  60.0   12.0    16.0
+[ 2024-05-26 20:46:08,010 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  144.0  252.0  85.0  252.0  85.0       46.0  245.0  77.0   13.0    15.0
+[ 2024-05-26 20:46:08,024 ] 21 root - INFO - New data : 
+    Area      X     Y     XM    YM  Perimeter     BX    BY  Width  Height
+0  139.0  272.0  89.0  272.0  89.0       46.0  266.0  82.0   12.0    15.0
+[ 2024-05-26 20:46:08,038 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX    BY  Width  Height
+0  145.0  236.0  101.0  236.0  101.0       48.0  230.0  93.0   12.0    17.0
+[ 2024-05-26 20:46:08,052 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  143.0  283.0  136.0  283.0  136.0       45.0  277.0  128.0   13.0    15.0
+[ 2024-05-26 20:46:08,066 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  146.0  304.0  140.0  304.0  140.0       47.0  298.0  132.0   12.0    15.0
+[ 2024-05-26 20:46:08,079 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  136.0  225.0  147.0  225.0  147.0       45.0  220.0  140.0   11.0    16.0
+[ 2024-05-26 20:46:08,093 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  143.0  255.0  148.0  255.0  148.0       49.0  249.0  140.0   12.0    17.0
+[ 2024-05-26 20:46:08,106 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  151.0  295.0  167.0  295.0  167.0       50.0  289.0  160.0   15.0    15.0
+[ 2024-05-26 20:46:08,120 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  100.0  205.0  178.0  205.0  178.0       39.0  200.0  170.0    9.0    14.0
+[ 2024-05-26 20:46:08,134 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  153.0  272.0  185.0  272.0  185.0       48.0  266.0  176.0   12.0    16.0
+[ 2024-05-26 20:46:08,147 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  146.0  246.0  208.0  246.0  208.0       47.0  240.0  200.0   12.0    15.0
+[ 2024-05-26 20:46:08,160 ] 21 root - INFO - New data : 
+   Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  97.0  210.0  221.0  210.0  221.0       39.0  205.0  214.0   10.0    13.0
+[ 2024-05-26 20:46:08,173 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  158.0  291.0  226.0  291.0  226.0       49.0  284.0  218.0   12.0    16.0
+[ 2024-05-26 20:46:08,186 ] 21 root - INFO - New data : 
+    Area      X      Y     XM     YM  Perimeter     BX     BY  Width  Height
+0  156.0  263.0  252.0  263.0  252.0       48.0  256.0  244.0   12.0    17.0
+[ 2024-05-26 20:46:08,590 ] 96 werkzeug - INFO - 127.0.0.1 - - [26/May/2024 20:46:08] "POST /showingResults HTTP/1.1" 200 -
+[ 2024-05-26 20:46:08,635 ] 96 werkzeug - INFO - 127.0.0.1 - - [26/May/2024 20:46:08] "[36mGET /static/css/Results.css HTTP/1.1[0m" 304 -
+[ 2024-05-26 20:46:08,638 ] 96 werkzeug - INFO - 127.0.0.1 - - [26/May/2024 20:46:08] "GET /static/seed_results_plot.png HTTP/1.1" 200 -
+[ 2024-05-26 20:46:08,642 ] 96 werkzeug - INFO - 127.0.0.1 - - [26/May/2024 20:46:08] "GET /static/seed_results_pie_chart.png HTTP/1.1" 200 -
